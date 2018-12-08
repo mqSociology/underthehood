@@ -1,19 +1,25 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
-keywords: sample homepage
+title: "Getting started with Methods101.com"
+keywords: homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: This page will help you set up your computer so you can be an editor of Methods101.com. You will learn how to set up a GigHub account, install GitHub and other necessary software (like SubLime Text), and set up folders on your computer for editing the website. We will then run through basic Git Bash commands so that you can import the website, edit it in SubLime Text, and then export it back to the GitHub website. 
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+## What are we doing?
 
-## Build the Theme
+If you are accessing this page, then you are probably helping edit the website Methods101.com
 
-Follow these instructions to build the theme.
+Methods101.com is a website that uses a content management system called 'Jekyll', and is hosted on a website called 'GitHub'. These are two of the most popular and stable systems for hosting websites that exist. 
 
-### 1. Download the theme
+The advantage of this system is that once the basic layout and files are set up, almost all the rest of the content (e.g. new webpages), can be created in simple text files and uploaded very easily. In the long run a Jekyll based system can be much faster and easier to use than something like WordPress or SquareSpace. 
+
+However, in the short term, there is quite a steep learning curve. And you are about to enter that 'curve'. Sorry. ;)
+
+This blog/website will hold your hand and guide you through that process, so get ready, and let's dive in.
+<!-- 
+## 1. Download the theme
 
 First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
@@ -407,4 +413,4 @@ If you want to use an automated system for managing links, see [Automated Links]
 
 The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
 
-{% include links.html %}
+{% include links.html %} -->
