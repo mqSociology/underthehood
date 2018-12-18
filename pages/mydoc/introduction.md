@@ -1,30 +1,48 @@
 ---
 title: Introduction
+keywords: 
+summary: "Here we will cover what software you will need to install, how to get access to the relevant github repository where the website data in stored and updated, and how to set up your own local version of the website for testing."
 sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
+permalink: introduction.html
+tags: software
 folder: mydoc
 ---
 
-## Overview
+## Programs You Will Need!
 
-This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
+You will need some kind of text editor to open and create documents for the website. Sublime Text is recommended and can be found [here](https://www.sublimetext.com/). Notepad ++ is free and has similar functionality. Notepad ++ can be downloaded [here](https://notepad-plus-plus.org/download/v7.6.1.html).
 
-The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is built to accommodate documentation for multiple products on the same site.
+You will also need gitbash (git for windows) which can be found [here](https://gitforwindows.org/)
 
-## Survey of features
+## Github
 
-Some of the more prominent features of this theme include the following:
+To access the github repository you will need a github account. Go [here](https://github.com/) and register. Choose the free option!
 
-* Bootstrap framework
-* [Navgoco multi-level sidebar](http://www.komposta.net/article/navgoco) for table of contents
-* Ability to specify different sidebars for different products
-* Top navigation bar with drop-down menus
-* Notes, tips, and warning information notes
-* Tags for alternative navigation
-* Advanced landing page layouts from the [Modern Business theme](http://startbootstrap.com/template-overviews/modern-business/).
+Once you have registered ask whomever controls the repository you are interested in to add you. This will give you permission to change the master version of the website. Available repositories are found here: 
 
-## Getting started
+<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_01.PNG" style="max-width:100%;" /></div>
 
-To get started, see [Getting Started][index].
+## Setting Up
+
+Now it is time to set up a local version of the website that you can change and experiment on at will without changing the master version. First, go to the methods101 github repository and click on "clone or download".  
+
+<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_01.PNG" style="max-width:100%;" /></div>
+
+Copy the URL that appears there.
+
+Next, open up **git cmd** which came with the gitbash package you just installed. 
+
+Into the console that appears type "git clone https://github.com/accountname/randomrepository.git" 
+
+Something like this should appear:
+
+<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_03.PNG" style="max-width:100%;" /></div>
+
+Now you need to tell the console to open up the relevant sub directory. Do this by typing "cd methods101".
+
+Finally, type "bundle exec jekyll serve". 
+
+In your web browser go to localhost:4000 and you will see an isolated version of the website. 
+
 
 {% include links.html %}
