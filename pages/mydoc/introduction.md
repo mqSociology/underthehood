@@ -32,7 +32,7 @@ Copy the URL that appears there.
 
 Next, open up **git cmd** which came with the gitbash package you just installed. 
 
-Into the console that appears type "git clone https://github.com/accountname/randomrepository.git" 
+Into the console that appears type "git clone https://github.com/accountname/randomrepository.git" (this is where you paste the URL)
 
 Something like this should appear:
 
