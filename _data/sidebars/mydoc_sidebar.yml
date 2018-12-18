@@ -31,5 +31,8 @@ entries:
     - title: Introduction
       url: /introduction.html
       output: web, pdf
-
+   
+    - title: Creating a page
+      url: /creating_a_page.html
+      output: web, pdf
   
