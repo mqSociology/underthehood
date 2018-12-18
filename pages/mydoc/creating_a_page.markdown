@@ -44,7 +44,7 @@ After you have created a page and entered in the relevant front matter you will 
 
 The sidebar file has the following format:
 
-<div style="text-align:center"><img src ="images/overview/creating_a_page/cap_image_03.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/cap_image_03.PNG" style="max-width:100%;" /></div>
 
 Here you can see the primary folder is -How to Analyse Data (SPSS)- and the files within the folder are - How to Analyse Data (SPSS) - and - Lesson 1: Qualitative Data - and so on. 
 
