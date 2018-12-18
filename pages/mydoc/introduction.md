@@ -20,13 +20,13 @@ To access the github repository you will need a github account. Go [here](https:
 
 Once you have registered ask whomever controls the repository you are interested in to add you. This will give you permission to change the master version of the website. Available repositories are found here: 
 
-<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_01.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/introduction_image_01.PNG" style="max-width:100%;" /></div>
 
 ## Setting Up
 
 Now it is time to set up a local version of the website that you can change and experiment on at will without changing the master version. First, go to the methods101 github repository and click on "clone or download".  
 
-<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_01.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/introduction_image_02.PNG" style="max-width:100%;" /></div>
 
 Copy the URL that appears there.
 
@@ -36,7 +36,7 @@ Into the console that appears type "git clone https://github.com/accountname/ran
 
 Something like this should appear:
 
-<div style="text-align:center"><img src ="images/overview/introduction/introduction_image_03.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/introduction_image_03.PNG" style="max-width:100%;" /></div>
 
 Now you need to tell the console to open up the relevant sub directory. Do this by typing "cd methods101".
 

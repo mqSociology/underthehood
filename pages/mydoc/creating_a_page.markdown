@@ -22,7 +22,7 @@ To start: Create a new file using either Notepad ++ or Sublime Text. Make sure t
 
 Front matter provides the metadata for the page. If you look at the "How to Analyse Data: Introduction" page you will see the following metadata:
 
-<div style="text-align:center"><img src ="images/overview/creating_a_page/cap_image_01.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/cap_image_01.PNG" style="max-width:100%;" /></div>
 
 Three dashes (- - -) with no spaces are necessary at the beginning and end of the front matter so that it can be registered as such.
 
@@ -32,7 +32,7 @@ Keywords front matter provides keywords for search engines like Google.
 
 Sidebar front matter determines which sidebar is being used. For example, "How to Analyse Data: Introduction" uses the mydoc_sidebar. The final result of this is shown below:
 
-<div style="text-align:center"><img src ="images/overview/creating_a_page/cap_image_02.PNG" style="max-width:100%;" /></div>
+<div style="text-align:center"><img src ="images/cap_image_02.PNG" style="max-width:100%;" /></div>
 
 The permalink front matter gives the page a URL that takes the form of www.randomsite.com/permalinkaddress. So for the above example, the following URL has been created: https://mqsociology.github.io/methods101/htad_intro.html.
 
