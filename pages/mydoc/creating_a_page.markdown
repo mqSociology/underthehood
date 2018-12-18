@@ -82,7 +82,7 @@ The correct path for the image file must be put into the code so that the pictur
 
 Finally, the max-width command in the html code is used to change the size of the picture.
 
-
+test
 
 
 
