@@ -30,7 +30,7 @@ To run a local working version of the repository use:
 
 ```bundle exec jekyll serve```
 
-And then in your web browser got to localhost:4000. You must have the command console in the working directory by using the **cd folderpath** command for this to work.
+And then in your web browser go to localhost:4000. You must have the command console in the working directory by using the **cd folderpath** command for this to work.
 
 
 ## Uploading and other commands
