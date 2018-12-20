@@ -81,7 +81,7 @@ To upload follow these steps:
 
 4. git commit -m "comments" (commits the files for upload and provides comments)
 
-5. git push -u origin master(uploads the files)
+5. git push -u origin master (uploads the files)
 
 ## Helpful resources
 
