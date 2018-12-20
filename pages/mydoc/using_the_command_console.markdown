@@ -67,7 +67,7 @@ The comment is important for letting others and yourself know what the update is
 
 Finally, to update the master repository with your commited files use:
 
-```git push```
+```git push -u origin master```
 
 ## The steps all over again
 
@@ -81,7 +81,7 @@ To upload follow these steps:
 
 4. git commit -m "comments" (commits the files for upload and provides comments)
 
-5. git push (uploads the files)
+5. git push -u origin master(uploads the files)
 
 ## Helpful resources
 
