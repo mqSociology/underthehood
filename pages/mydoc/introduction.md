@@ -38,7 +38,7 @@ Something like this should appear:
 
 <div style="text-align:center"><img src ="images/introduction_image_03.PNG" style="max-width:100%;" /></div>
 
-Now you need to tell the console to open up the relevant sub directory. Do this by typing "cd methods101".
+Now you need to tell the console to open up the relevant sub directory. Do this by typing "cd methods101" where methods101 is the folder you wish to open.
 
 Finally, type "bundle exec jekyll serve". 
 

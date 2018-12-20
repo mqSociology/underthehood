@@ -35,4 +35,7 @@ entries:
     - title: Creating a page
       url: /creating_a_page.html
       output: web, pdf
-  
+    
+    - title: Using the command console
+      url: /using_the_command_console.html
+      output: web, pdf

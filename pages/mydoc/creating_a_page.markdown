@@ -16,7 +16,7 @@ On methods101 the lessons are kept within the **pages** folder. You can go in he
 
 Methods101 uses a pre existing theme which can be viewed [here](https://idratherbewriting.com/documentation-theme-jekyll/). This site provides detailed information about the theme and how to use it, much of which will be drawn on for this guide. 
 
-To start: Create a new file using either Notepad ++ or Sublime Text. Make sure the file is saved as a **markdown file**. Do this by naming the file as randomname.markdown
+To start: Create a new file using either Notepad ++ or Sublime Text. Make sure the file is saved as a **markdown file**. Do this by naming the file as randomname.markdown (.md is another popular markdown file extension).
 
 ## Front matter
 
@@ -76,9 +76,9 @@ Kramdown is not used to add images on Methods101 as it does not center the pictu
 
 ```<div style="text-align:center"><img src ="images/randompath/file.PNG" style="max-width:100%;" /></div>````
 
-The picture must be put in the images folder which is found in the root directory of the repository. 
+The picture must be put in the images folder which is found in the root directory of the repository. The file should be named as follows: pagename_image_xx where xx is a sequential number for each image for a page.
 
-The correct path for the image file must be put into the code so that the picture can be properly linked.
+The correct path for the image file must be put into the code so that the picture can be properly linked. Note: the file extension should be in lower case.
 
 Finally, the max-width command in the html code is used to change the size of the picture.
 
