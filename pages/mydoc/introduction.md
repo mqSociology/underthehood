@@ -44,5 +44,4 @@ Finally, type "bundle exec jekyll serve".
 
 In your web browser go to localhost:4000 and you will see an isolated version of the website. 
 
-
 {% include links.html %}

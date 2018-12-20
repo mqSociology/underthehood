@@ -62,13 +62,13 @@ After the front matter comes the content. The content is written in the kramdown
 
 Some basic syntax:
 
-\## creates a heading. More hashes creates a different level of heading. Moreover, each heading creates an entry in the table of contents which can be seen at the top of this page.
+* \## creates a heading. More hashes creates a different level of heading. Moreover, each heading creates an entry in the table of contents which can be seen at the top of this page.
 
-Leaving an empty line between two lines of content creates a paragraph.
+* Leaving an empty line between two lines of content creates a paragraph.
 
-To create bold text have a ** at the beginning and end of the text you want to bold.
+* To create bold text have a ** at the beginning and end of the text you want to bold.
 
-To escape the Kramdown syntax, use a backslash (\\). For example, to show a double \## instead of creating a heading I would type this: \\##.
+* To escape the Kramdown syntax, use a backslash (\\). For example, to show a double \## instead of creating a heading I would type this: \\##.
 
 ## Adding Images
 
