@@ -19,7 +19,7 @@ menu:
 
 The command console was part of the git bash (git for windows) software you installed earlier. When opened it should look like this:
 
-<div style="text-align:center"><img src ="images/utcc_image_01.png" style="max-width:100%;" /></div>
+<img width='400' src='/img/utcc_image_01.png'/>
 
 The following command will make a copy of the methods 101 repository on github:
 
@@ -32,12 +32,6 @@ If you wish to update your local version of the repository with the github maste
 ```git pull```
 
 The **git pull** command will not work if your local version is further along than the master verson. For example, if you have created a page on your local version (hereafter working directory) and then wished to update your working directory with recent changes to the master version an error will appear. This is to stop you from overwriting work on your working directory.
-
-To run a local working version of the repository use:
-
-```bundle exec jekyll serve```
-
-And then in your web browser go to localhost:4000. You must have the command console in the working directory by using the **cd folderpath** command for this to work.
 
 
 ## Uploading and other commands
