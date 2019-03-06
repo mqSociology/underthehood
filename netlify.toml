@@ -8,6 +8,6 @@
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://methods101.com"
-  to = "https://methods101.com/docs/"
+  from = "https://boring-jones-8c602b.netlify.com/"
+  to = "https://boring-jones-8c602b.netlify.com/docs/"
   force = true
