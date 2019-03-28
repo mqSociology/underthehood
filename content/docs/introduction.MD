@@ -6,10 +6,7 @@ lastmod: 2019-03-06T00:00:00.000Z
 draft: false
 type: docs
 maths: true	
-
-output:
-  blogdown::html_page:
-    toc: true
+toc: true
 
 linktitle: "Introduction"
 menu:
