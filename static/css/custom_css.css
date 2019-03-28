@@ -2035,9 +2035,9 @@ div.alert a {
 
  .u1 a, .menu-head {
 	color: rgba(166, 25, 46, 1);
-	font-size: 1.25rem;
+	font-size: 1.20rem;
 	margin-bottom: 0px;
-	padding-inline-start: 15px;
+	padding-inline-start: 0px;
 	font-weight: bold;
 }  
 
