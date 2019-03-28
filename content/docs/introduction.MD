@@ -7,6 +7,10 @@ draft: false
 type: docs
 maths: true	
 
+output:
+  blogdown::html_page:
+    toc: true
+
 linktitle: "Introduction"
 menu:
   docs:
