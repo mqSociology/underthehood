@@ -15,6 +15,8 @@ menu:
 
 ---
 
+The information on this page will be capped in the website management section of the site. This page serves to cover the basic and to orientate you when first starting out.
+
 ## Recap
 
 The command console was part of the git bash (git for windows) software you installed earlier. When opened it should look like this:
