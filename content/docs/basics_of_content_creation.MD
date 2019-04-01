@@ -25,6 +25,8 @@ RMarkdown files must be created in conjunction with RStudio for them to work. Mo
 
 To create a new page simply go into notepad++ (or some other suitable text editor) and create a new file. When you save this file remember to save it with the .RMD file extension. 
 
+The file **must be** saved in the content/docs/ folder.
+
 ## Structure of a page
 
 Each content page starts out with the front matter. The front matter, amongst other things, links the page to predefined layouts (whether that be menu, table of contents, content layout) and places the page in a menu. 

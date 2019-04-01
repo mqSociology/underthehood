@@ -21,13 +21,13 @@ The menu that is used the most (if not 100% of the time) is the side menu which 
 
 <img width='300' src='/img/menu_entries_01.png'/>
 
-The other menu in the topbar which currently only consists of:
+The other menu is the topbar which currently only consists of:
 
 <img width='300' src='/img/menu_entries_02.png'/>
 
 ### Front Matter
 
-To make a new entry you must insert the following in the front matter:
+To make a new menu entry you must insert the following in the front matter:
 
 <img width='300' src='/img/menu_entries_03.png'/>
 
@@ -43,7 +43,7 @@ To create a new parent tab (i.e. About, How to Analyse Data, SSCI202, etc.) you 
 
 While simply using a unique parent tab name in the front matter of a page will create a new parent tab, it will not allow you to position the parent tab. To position the parent tab (by using a weight value) we use an entry in the config file which is show below:
 
-<img width='300' src='/img/menu_entries_04.png'/>
+<img width='500' src='/img/menu_entries_04.png'/>
 
 The **config.toml** file is also where we add menu entries for the topbar.
 
