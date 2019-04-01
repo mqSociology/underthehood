@@ -85,13 +85,8 @@ Lists are made by having an asterisks at the beginning of each line and render l
 * List
 * List
 
-A hyperlink can be created like this"
-
-/[hyperlink](url of website) 
-
-So a link to this page would be:
-/[basics of content creation](https://underthehood101.netlify.com/docs/basics_of_content_creation/)
-
 ### Resources
 
 A Markdown and Yaml cheat sheet can be found [here](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/)
+
+If you see something that is done on one of these pages that is not explained here then I recommend looking through the Markdown file in the repository to see how it was done. 
