@@ -41,7 +41,7 @@ Note the three dashes at the beginning and end. This signifies the beginning and
 
 Running through the front matter from top to bottom:
 
-Title: This is the big title that appears at the top of the page
+<span style="color:blue"> *Title:* </span> This is the big title that appears at the top of the page
 
 Lastmod: This tells the reader and content creators the last time this page was modified
 
@@ -77,3 +77,4 @@ Here I will give a brief overview of some RMarkdown commands and links to some r
 A heading is created with the ##. More hashes indicate a different level of heading. So for example #### Heading will appear like this:
 
 #### Heading
+
