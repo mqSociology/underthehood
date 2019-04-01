@@ -51,22 +51,17 @@ Running through the front matter from top to bottom:
 
 <span style="color:red"> **The following renders the table of contents (if you don't want a table of contents don't include this):** </span>
 
-output:
-  blogdown::html_page:
-    toc: true
+<img width='400' src='/img/basics_of_content_creation_02.png'/>
 
 <span style="color:red"> **Linktitle:** </span> This is the menu entry for the page.
 
 <span style="color:red"> **The following specifies where in the menu and which menu it appears in:** </span>
 
-menu:
-  docs:
-    parent: SOCI832
-    weight: 60
+<img width='400' src='/img/basics_of_content_creation_03.png'/>
 
 Specifically, "docs" means that it will appear in the docs sidemenu as opposed to the top menu (which is called "main"). Parent means which parent entry in the side menu should this page appear under. While weight signifies where under the parent entry it should appear with lower weighted entries appearing higher up. So in this case the page appears under SOCI832 as shown below:
 
-<img width='400' src='/img/basics_of_content_creation_02.png'/>
+<img width='400' src='/img/basics_of_content_creation_04.png'/>
 
 ## Content
 
@@ -78,10 +73,18 @@ A **heading** is created with the ##. More hashes indicate a different level of 
 
 #### Heading
 
-**Bold** text is created using /** at the beginning and end of the text you want effected.
+**Bold** text is created using ** at the beginning and end of the text you want effected.
 
-**Itallic** text is created using /* at the beginning and end of the text you want effected.
+**Itallic** text is created using * at the beginning and end of the text you want effected.
 
-* Lists are made by
-* jjbjb
-* jvjjv
+Lists are made by having an asterisks at the beginning of each line and render like so:
+
+* List
+* List
+* List
+
+A hyperlink can be created by
+
+### Resources
+
+A Markdown cheet sheet can be found here 
