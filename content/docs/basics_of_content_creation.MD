@@ -43,21 +43,21 @@ Running through the front matter from top to bottom:
 
 <span style="color:red"> **Title:** </span> This is the big title that appears at the top of the page
 
-Lastmod: This tells the reader and content creators the last time this page was modified
+<span style="color:red"> **Lastmod:** </span> This tells the reader and content creators the last time this page was modified
 
-Draft: Set to false this does nothing. If set to true it will hide the page from users. 
+<span style="color:red"> **Draft:** </span> Set to false this does nothing. If set to true it will hide the page from users. 
 
-Maths: This should be set to true.
+<span style="color:red"> **Maths:** </span> This should be set to true.
 
-The following renders the table of contents (if you don't want a table of contents don't include this):
+<span style="color:red"> **The following renders the table of contents (if you don't want a table of contents don't include this):** </span>
 
 output:
   blogdown::html_page:
     toc: true
 
-Linktitle: This is the menu entry for the page.
+<span style="color:red"> **Linktitle:** </span> This is the menu entry for the page.
 
-The following specifies where in the menu and which menu it appears in:
+<span style="color:red"> **The following specifies where in the menu and which menu it appears in:** </span>
 
 menu:
   docs:
@@ -74,7 +74,14 @@ Content is written in plain text or in R code. It may be a good idea to open up 
 
 Here I will give a brief overview of some RMarkdown commands and links to some resources to learn more.
 
-A heading is created with the ##. More hashes indicate a different level of heading. So for example #### Heading will appear like this:
+A **heading** is created with the ##. More hashes indicate a different level of heading. So for example #### Heading will appear like this:
 
 #### Heading
 
+**Bold** text is created using /** at the beginning and end of the text you want effected.
+
+**Itallic** text is created using /* at the beginning and end of the text you want effected.
+
+* Lists are made by
+* jjbjb
+* jvjjv
