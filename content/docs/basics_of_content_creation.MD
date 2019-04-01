@@ -73,6 +73,8 @@ Content is written in plain text or in R code. It may be a good idea to open up 
 
 Here I will give a brief overview of some RMarkdown commands and links to some resources to learn more.
 
+Firstly, to create a **new paragraph** there needs to be a line gap in the Markdown file.
+
 A **heading** is created with the ##. More hashes indicate a different level of heading. So for example #### Heading will appear like this:
 
 #### Heading
