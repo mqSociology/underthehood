@@ -23,11 +23,11 @@ To embed videos in RMarkdown use the following code:
 
 
 
-"```{r, eval=TRUE, echo=FALSE}
-blogdown::shortcode("youtube", "NbUL4zC70Wo")```"
+/```{r, eval=TRUE, echo=FALSE}
+blogdown::shortcode("youtube", "NbUL4zC70Wo")```/
 
 
-wW
+Where:
 
 08WeoqWilRQ
 
