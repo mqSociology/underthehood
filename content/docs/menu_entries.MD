@@ -27,7 +27,7 @@ The other menu is the topbar which currently only consists of:
 
 ### Front Matter
 
-To make a new menu entry you must insert the following in the front matter:
+To make a new menu entry you must insert the following in the front matter of a page in the docs folder:
 
 <img width='300' src='/img/menu_entries_03.png'/>
 
