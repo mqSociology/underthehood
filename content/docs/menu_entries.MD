@@ -45,6 +45,6 @@ While simply using a unique parent tab name in the front matter of a page will c
 
 <img width='500' src='/img/menu_entries_04.png'/>
 
-The **config.toml** file is also where we add menu entries for the topbar.
+The **config.toml** file is also where we add menu entries for the topbar. The **menu.main** entry is for the topbar while the **menu.docs** entry is for the sidemenu. 
 
 More menu entries can be added to the topbar and a dropdown functionality exists. Both of these work the same way as the sidemenu which has already been explained. The only difference is that these menu entries are only created in the **config.toml** file.
