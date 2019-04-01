@@ -85,7 +85,7 @@ Lists are made by having an asterisks at the beginning of each line and render l
 * List
 * List
 
-### Resources
+## Resources
 
 A Markdown and Yaml cheat sheet can be found [here](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/)
 
