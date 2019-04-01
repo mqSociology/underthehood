@@ -36,7 +36,7 @@ Once you have registered ask whomever controls the repository you are interested
 
 ## R Studio
 
-We use RMarkdown (RMD) files for generating our content. We use RMD because it allows us to render tables and graphs simply by using R code. If we instead used Markdown files we would have to take screenshots of each table and graph and embed them in each document. Because we use RMD files you will also need to download the R software suite. 
+We use RMarkdown (.RMD) files for generating our content. We use RMD because it allows us to render tables and graphs simply by using R code. If we instead used Markdown files we would have to take screenshots of each table and graph and embed them in each document. Because we use RMD files you will also need to download the R software suite. 
 
 First, download [R](https://cran.csiro.au/) and then download the free version of [R Studio](https://www.rstudio.com/products/rstudio/download/) which is a GUI for R.
 
