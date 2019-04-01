@@ -15,7 +15,7 @@ menu:
 
 ---
 
-The information on this page will also be in the content management section of the site. This page serves to cover the basics and to orientate you when first starting out.
+The information on this page will also be in the content management section of the site. This page serves to cover the basics and to orientate you when first starting out. Thereafter, I recommend reading the entry you are interested in under content managment in the sidemenu.
 
 ## Markdown vs RMarkdown
 
@@ -64,6 +64,8 @@ Note: this method of inserting a table of contents will only work for RMarkdown 
 Specifically, "docs" means that it will appear in the docs sidemenu as opposed to the top menu (which is called "main"). Parent means which parent entry in the side menu should this page appear under. While weight signifies where under the parent entry it should appear with lower weighted entries appearing higher up. So in this case the page appears under SOCI832 as shown below:
 
 <img width='300' src='/img/basics_of_content_creation_04.png'/>
+
+Finally, if you are creating a new parent entry you will need to make a corresponding entry in the config.toml file this will be further explained in the *menu entries* page under the content management tab.
 
 ## Content
 
