@@ -41,7 +41,7 @@ Note the three dashes at the beginning and end. This signifies the beginning and
 
 Running through the front matter from top to bottom:
 
-<span style="color:blue"> *Title:* </span> This is the big title that appears at the top of the page
+<span style="color:red"> **Title:** </span> This is the big title that appears at the top of the page
 
 Lastmod: This tells the reader and content creators the last time this page was modified
 
