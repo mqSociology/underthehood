@@ -53,7 +53,7 @@ For more info on this function go [here](https://www.zevross.com/blog/2017/06/19
 
 ## Videos
 
-To embed videos in RMarkdown use the following code:
+To embed a YouTube video in RMarkdown use the following code:
 
 
 
