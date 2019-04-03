@@ -51,3 +51,12 @@ Which would appear like this:
 
 Note: The table of contents for the Methods101 site will only pick up on heading levels 1 through 3 when generating.
 
+## Formatting content
+
+Some useful RMarkdown formatting commands (these are the same as Markdown):
+
+**Bold text:** Use a double ** before and after the text like this \** bold text \** which will render like this **bold text**
+
+**Itallic text:** Use a single * before and after the text like this \* itallic text \* which will render like this *itallic text*
+
+ 
