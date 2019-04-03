@@ -55,9 +55,9 @@ Note: The table of contents for the Methods101 site will only pick up on heading
 
 Some useful RMarkdown formatting commands (these are the same as Markdown):
 
-**Bold text:** Use a double ** before and after the text like this \** bold text \** which will render like this **bold text**
+**Bold text:** Use a double ** before and after the text like this \**bold text\** which will render like this **bold text**
 
-**Itallic text:** Use a single * before and after the text like this \* itallic text \* which will render like this *itallic text*
+**Itallic text:** Use a single * before and after the text like this \*itallic text\* which will render like this *itallic text*
 
 Lists are either ordered or unordered. 
 
@@ -77,7 +77,15 @@ And render like this:
 
 * List
 
-** Ordered lists ** are created like this:
+**Ordered lists** are created like this:
+
+\1. List
+
+\2. List
+
+\3. List
+
+And render like this:
 
 1. List
 
