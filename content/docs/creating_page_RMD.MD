@@ -19,10 +19,18 @@ menu:
 
 RMarkdown is a version of Markdown that lets you render the output of R code that is inserted into the page. The file extension that we use for RMarkdown file is .RMD as opposed to .MD for Markdown files. 
 
-RMarkdown files must be created in conjunction with RStudio for them to work. 
+RMarkdown files must be created in conjunction with RStudio for them to work (more on this later). 
+
+Most commands/syntax that applies to Markdown also applies to RMarkdown.
 
 ## Creating a page
 
-Creating a new page is simple, simply create a new file in a Notepad ++ (or your preferred text editor) and make sure to save it with an .RMD file extension. 
+Creating a new page is easy, simply create a new file in a Notepad ++ (or your preferred text editor) and make sure to save it with an .RMD file extension. The file should be saved in the contents\docs\ folder.
 
-The page should have appropriate front matter (which is discussed more [here](https://underthehood101.netlify.com/docs/front_matter/) .
+The page should have appropriate front matter (which is discussed more [here](https://underthehood101.netlify.com/docs/front_matter/) ).
+
+Before the file is pushed to the github repository (which is discussed here) you must use RStudio to create a HTML file to match the RMarkdown file. This is simple. Open the project-kickstart-R file located in the root directory of the repository with RStudio:
+
+<img width='300' src='/img/creating_page_RMD.jpg'/>
+
+
