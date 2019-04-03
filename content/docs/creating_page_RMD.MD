@@ -31,6 +31,6 @@ The page should have appropriate front matter (which is discussed more [here](ht
 
 Before the file is pushed to the github repository (which is discussed here) you must use RStudio to create a HTML file to match the RMarkdown file. This is simple. Open the project-kickstart-R file located in the root directory of the repository with RStudio:
 
-<img width='300' src='/img/creating_page_RMD.jpg'/>
+<img width='300' src='/img/creating_page_RMD_01.jpg'/>
 
 
