@@ -96,3 +96,5 @@ To colour the text use the following:
 Which will render like this:
 
 <span style="color:maroon"> Coloured text </span> 
+
+Some available colours can be found [here](https://www.w3schools.com/colors/colors_names.asp) .
