@@ -309,7 +309,7 @@ enableGitInfo = false
   weight = 10
 
 [[menu.docs]]
-  name = "Website management"
+  name = "Website Management"
   weight = 20
 
 [[menu.docs]]
