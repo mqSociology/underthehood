@@ -6,7 +6,6 @@ lastmod: 2019-03-06T00:00:00.000Z
 draft: false
 type: docs
 maths: true	
-toc: true
 
 linktitle: "Writing Content"
 menu:
@@ -15,6 +14,8 @@ menu:
     weight: 60
 
 ---
+
+{{% toc %}}
 
 This page contains various commands and code for making writing content easier. For various reasons neither the Hugo or Academic theme documentation is entirely useful without modification. Hopefully this page can save you from having to look these things up. 
 
