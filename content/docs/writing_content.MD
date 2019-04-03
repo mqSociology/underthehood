@@ -38,3 +38,16 @@ Sometimes there are situations in which you want to escape the RMarkdown syntax.
 An example is:
 
 \\\* text \\\*
+
+## Headings
+
+Headings are rendered by using a # before the heading content. There are six heading levels which are triggered using more #. So a level four heading would be done like this:
+
+\#### Heading
+
+Which would appear like this:
+
+#### Heading
+
+Note: The table of contents for the Methods101 site will only pick up on heading levels 1 through 3 when generating.
+
