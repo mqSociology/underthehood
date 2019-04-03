@@ -98,3 +98,5 @@ Which will render like this:
 <span style="color:maroon"> Coloured text </span> 
 
 Some available colours can be found [here](https://www.w3schools.com/colors/colors_names.asp) .
+
+Instead of colour any of the numerous CSS styling options can be inserted. More options can be found [here](https://www.w3schools.com/css/css_text.asp) and elsewhere with a quick google search.
