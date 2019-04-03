@@ -77,18 +77,22 @@ And render like this:
 
 * List
 
-**Ordered lists** are created like this:
-
-\1. List
-
-\2. List
-
-\3. List
-
-And render like this:
+**Ordered lists** are created (and rendered) like this:
 
 1. List
 
 2. List
 
 3. List
+
+### Formatting with HTML
+
+RMarkdown cannot style the text. Instead, to style the text you need to insert HTML into the RMD document. 
+
+To colour the text use the following:
+
+\<span style="color:maroon"> Coloured text \</span> 
+
+Which will render like this:
+
+<span style="color:maroon"> Coloured text </span> 

@@ -27,7 +27,7 @@ Running through the front matter from top to bottom:
 
 <span style="color:maroon"> **Title:** </span> This is the big title that appears at the top of the page
 
-<span style="color:maroon"> **Lastmod:** </span> This tells the reader and content creators the last time this page was modified
+<span style="color:maroon"> **Lastmod:** </span> This tells the reader and content creators the last time this page was modified. This is automatically done by Hugo. You do not need to enter this in yourself.
 
 <span style="color:maroon"> **Draft:** </span> Set to false this does nothing. If set to true it will hide the page from users. 
 
