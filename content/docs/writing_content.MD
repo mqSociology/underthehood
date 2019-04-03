@@ -33,7 +33,7 @@ The table of contents (TOC) must be enabled in the front matter as discussed [he
 
 ## Escaping RMarkdown
 
-Sometimes there are situations in which you want to escape the RMarkdown syntax. For example, if you want to have \*text with asterisks\* and not have it go bold like *this*. To do this use a backslash (\) behind each character with special meaning in RMarkdown. 
+Sometimes there are situations in which you want to escape the RMarkdown syntax. For example, if you want to have \*text with asterisks\* and not have it be in itallics like *this*. To do this use a backslash (\\) behind each character with special meaning. 
 
 An example is:
 
