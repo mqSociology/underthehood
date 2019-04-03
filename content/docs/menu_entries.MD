@@ -51,4 +51,4 @@ More menu entries can be added to the topbar and a dropdown functionality exists
 
 ### Sidemenu title
 
-The sidemenu title content is in the layout/partial/docs_sidebar file. It starts around line 8 if you want to change it. The class will tell you where to look in the css file if you want to change the format. 
+The sidemenu title content is in the layout/partial/docs_sidebar file. It starts around line 8 if you want to change it. The class will tell you where to look in the css file if you want to change the formatting. 
