@@ -64,14 +64,14 @@ Now find the folder that this repository downloaded to. It will likely be in the
 
 Open the "project-kickstart-r" file (the one that is R Project file type not the png).
 
-You will need the following packages (just copy paste the below into the R Studio command console):
+You will need the following packages (just copy and paste each of the commands below into the R Studio command console):
 
-install.packages("blogdown")
-install.packages("devtools")
-install.packages("rmarkdown")
-install.packages("readr")
-blogdown::install_hugo()
-blogdown::install_theme(theme = "gcushen/hugo-academic")
+* install.packages("blogdown")
+* install.packages("devtools")
+* install.packages("rmarkdown")
+* install.packages("readr")
+* blogdown::install_hugo()
+* blogdown::install_theme(theme = "gcushen/hugo-academic")
 
 Now you can run the site locally by using the command "blogdown::serve_site()"
 

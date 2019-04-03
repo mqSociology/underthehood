@@ -13,6 +13,8 @@ Underthehood is a documentation site for methods101.com. The purpose of this sit
 
 **For new website content creators** who haven't used github, gitbash, and Markdown before, it is recommended you read through each of the pages under the Getting Started menu tab on the left first.
 
+**At the very least** it is recommended that you look at the Introduction page under the Getting Started tab on the left. This page will outline which programs you will need to get started and which packages for RStudio you will need.
+
 
 
 
