@@ -31,3 +31,10 @@ If you want to link to an internal page, instead of using the url it is better t
 
 The table of contents (TOC) must be enabled in the front matter as discussed [here]({{< ref "/docs/front_matter.MD" >}}). The TOC is created by compiling a list of the headings in the RMarkdown document. It will only take heading levels 1 through 3.
 
+## Escaping RMarkdown
+
+Sometimes there are situations in which you want to escape the RMarkdown syntax. For example, if you want to have \*text with asterisks\* and not have it go bold like *this*. To do this use a backslash (\) behind each character with special meaning in RMarkdown. 
+
+An example is:
+
+\\\* text \\\*
