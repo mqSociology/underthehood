@@ -37,7 +37,7 @@ Running through the front matter from top to bottom:
 
 <img width='300' src='/img/basics_of_content_creation_02.png'/>
 
-Note: this method of inserting a table of contents will only work for RMarkdown and not Markdown. 
+Note: this method of inserting a table of contents will only work for RMarkdown files and not Markdown files. Additionally, the table of contents is rendered from heading levels 1 through 3.
 
 <span style="color:maroon"> **Linktitle:** </span> This is the menu entry for the page.
 
