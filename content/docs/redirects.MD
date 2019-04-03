@@ -15,7 +15,7 @@ menu:
 
 ---
 
-Redirects are when you redirect one page to another. Currently there is a redirect in place from the homepage (which is methods101.com) to the docs page (which is methods101.com/docs/). 
+Redirects are when you redirect one page to another. Currently there is a redirect in place from the Methods101 homepage (which is methods101.com) to the docs page (which is methods101.com/docs/). 
 
 Redirects are done in the the netifly.toml file in the root directory. In this file make sure that force is set to true. It should look like this:
 

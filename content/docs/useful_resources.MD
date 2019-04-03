@@ -10,7 +10,7 @@ maths: true
 linktitle: "Useful resources"
 menu:
   docs:
-    parent: Website Management
+    parent: Content Management
     weight: 20
 
 ---
