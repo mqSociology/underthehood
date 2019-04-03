@@ -27,7 +27,7 @@ Most commands/syntax that applies to Markdown also applies to RMarkdown.
 
 Creating a new page is easy, simply create a new file in Notepad ++ (or your preferred text editor) and make sure to save it with an .RMD file extension. The file should be saved in the contents\docs\ folder.
 
-The page should have appropriate front matter (which is discussed more [here](https://underthehood101.netlify.com/docs/front_matter/) ).
+The page should have appropriate front matter (which is discussed more [here]({{< ref "/docs/front_matter.MD" >}}) ).
 
 **This part must be done each time you update a page or create a new page.** Before the file is pushed to the github repository (which is discussed here) you must use RStudio to create a HTML file to match the RMarkdown file. This is simple. Open the project-kickstart-R file located in the root directory of the repository with RStudio:
 
