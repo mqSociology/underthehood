@@ -59,4 +59,28 @@ Some useful RMarkdown formatting commands (these are the same as Markdown):
 
 **Itallic text:** Use a single * before and after the text like this \* itallic text \* which will render like this *itallic text*
 
- 
+Lists are either ordered or unordered. 
+
+**Unordered lists** are created like this:
+
+\* List
+
+\* List
+
+\* List
+
+And render like this:
+
+* List
+
+* List
+
+* List
+
+** Ordered lists ** are created like this:
+
+1. List
+
+2. List
+
+3. List
