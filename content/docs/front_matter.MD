@@ -45,4 +45,4 @@ Note: this method of inserting a table of contents will only work for RMarkdown 
 
 <img width='300' src='/img/basics_of_content_creation_03.png'/>
 
-For more information about menu entries go [here]({{< relref “menu_entries.MD” >}})
+For more information about menu entries go [here]({{< relref “menu_entries.md” >}})
