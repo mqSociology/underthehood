@@ -25,7 +25,7 @@ To link to an external page use the following code:
 
 If you want to link to an internal page, instead of using the url it is better to link to the file the page is generated from. This is useful in situations where you might want to change the base URL of the site but do not want to go back and edit all of your content to fix the resulting broken links. The command for this is here:
 
-``` [text]/({{< ref "/docs/random_file.MD" >}}) ```
+``` /[text]({{< ref "/docs/random_file.MD" >}}) ```
 
 ## Table of contents
 
