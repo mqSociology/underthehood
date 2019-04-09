@@ -29,7 +29,7 @@ If you want to link to an internal page, instead of using the url it is better t
 
 <img width='500' src='/img/writing_content_01.png'/>
 
-This way of linking pages internal to the site won't work if the base url isn't set correctly in the config.toml file. The base url for Methods101 should simply be https://methods101.com/ (and is already set). 
+This way of linking pages internal to the site won't work if the base url isn't set correctly in the config.toml file. The base url for Methods101 should simply be https://methods101.com/ (and is already set).  
 
 ## Table of contents
 
