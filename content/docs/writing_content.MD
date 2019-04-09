@@ -67,6 +67,8 @@ Note: The table of contents for the Methods101 site will only pick up on heading
 
 ## Formatting content
 
+For a Markdown cheat sheet go [here.](https://www.markdownguide.org/cheat-sheet/) 
+
 Some useful RMarkdown formatting commands (these are the same as Markdown):
 
 **Bold text:** Use a double ** before and after the text like this \**bold text\** which will render like this **bold text**
@@ -103,7 +105,7 @@ If you would like to indent the text like this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indented text
 
-Then use \&nbsp; for each space you would like the text to be indented by. This can also be done using HTML.
+Then use \&nbsp; for each space you would like the text to be indented by (the above was six spaces). This can also be done using HTML.
 
 ### Formatting with HTML
 
