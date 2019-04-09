@@ -62,7 +62,7 @@ The Hugo theme we use is called [Academic.](https://sourcethemes.com/academic/do
 
 The default Academic theme files can be found here:
 
-<img width='500' src='/img/the_setup_03.png'/>
+<img width='500' src='/img/the_setup_03.jpg'/>
 
 These files should not be changed. 
 
