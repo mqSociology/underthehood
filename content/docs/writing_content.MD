@@ -99,6 +99,12 @@ And render like this:
 
 3. List
 
+If you would like to indent the text like this:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Indented text
+
+Then use \&nbsp; for each space you would like the text to be indented by. This can also be done using HTML.
+
 ### Formatting with HTML
 
 RMarkdown cannot style the text. Instead, to style the text you need to insert HTML into the RMD document. 
