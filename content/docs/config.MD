@@ -22,3 +22,9 @@ The config.toml file holds many global variables for the site. Be careful what y
 **title:** this is what will appear in the topbar on the left. Currently Methods101 does not have this activated and instead we have a logo in its place (this is a separate variable talked about later)
 
 **color_theme:** lets you choose which colour theme will be used to colour the site. We use our own called MQtheme. These themes are located at \themes\hugo-academic\data\themes\ and the custom themes here are probably the only files that should ever be changed in the \theme\ folder.
+
+**custom_css:** designates the file that will overwrite the theme css file. This should be left alone (the config entry not the css file.
+
+Further down you will find the # Navigation Links heading in the config file (line 293 as of writing this page). Under this you will see the menu entries for the topbar and for the parent tabs in the sidemenu. 
+
+There are many other variables in the config file that can be read about in the Academic theme documentation [here](https://sourcethemes.com/academic/docs/) or by doing a google search. For the most part the only things that should need to regularly be changed are the menu entries.
