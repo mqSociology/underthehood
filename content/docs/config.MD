@@ -25,6 +25,8 @@ The config.toml file holds many global variables for the site. Be careful what y
 
 **custom_css:** designates the file that will overwrite the theme css file. This should be left alone (the config entry not the css file.
 
+**logo:** if this has an entry (for Methods101 it does) then it will override the title variable described above. The entry should be the name of the image in the \static\img\ folder that you want to be the logo.
+
 Further down you will find the # Navigation Links heading in the config file (line 293 as of writing this page). Under this you will see the menu entries for the topbar and for the parent tabs in the sidemenu. 
 
 There are many other variables in the config file that can be read about in the Academic theme documentation [here](https://sourcethemes.com/academic/docs/) or by doing a google search. For the most part the only things that should need to regularly be changed are the menu entries.
