@@ -11,7 +11,7 @@ linktitle: "Useful resources"
 menu:
   docs:
     parent: Content Management
-    weight: 20
+    weight: 200
 
 ---
 
