@@ -43,3 +43,15 @@ If you open a repository you can see the files associated with the given website
 
 ## Hugo
 
+Hugo provides the framework within which the website works. The best example of this is showing a bit of the HTML code for the sidemenu. 
+
+<img width='500' src='/img/the_setup_02.png'/>
+
+Much of what is shown here is HTML. However the bits of code in {{ }} are calling on the Hugo framework to do work. Hugo connects the site together. A front matter menu entry is called on here in code chunks like:
+
+```
+  {{ with (index .Site.Menus $menu_name) }}
+  {{ range (index $.Site.Menus $menu_name).ByWeight }} 
+```
+
+This code creates a list of menu entries by weight (another front matter variable).
