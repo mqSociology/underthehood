@@ -55,3 +55,19 @@ Much of what is shown here is HTML. However the bits of code in {{ }} are callin
 ```
 
 This code creates a list of menu entries by weight (another front matter variable).
+
+### Academic Theme
+
+The Hugo theme we use is called [Academic.](https://sourcethemes.com/academic/docs/) The theme has been modified (mostly the sidemenu) and only a part of its functionality has been used. We also use our own custom colour scheme (which is largely deployed by the Academic theme). 
+
+The default Academic theme files can be found here:
+
+<img width='500' src='/img/the_setup_03.png'/>
+
+These files should not be changed. 
+
+Instead, if you wish to make a change to a function or style of the Academic theme then you should either create or modify one of the files in the root directory of the site. The files outside of the theme folder will take precedence when the site is deploying. For example, our custom sidemenu is located at \layouts\partials\docs_sidebar.HTML and overrides the default sidemenu located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML.
+
+The default css file is located at \themes\hugo-academic\layouts\partials\css\academic.css while our custom css file is located at \static\css\custom_css.css.
+
+Finally, the files in \public\ are taken from the rest of the repository. They are the files that will be deployed and will changed automatically based on changes made elsewhere to the repository. There is no point in changing these files and they should be left alone. 
