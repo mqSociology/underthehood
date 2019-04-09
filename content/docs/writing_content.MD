@@ -29,9 +29,13 @@ If you want to link to an internal page, instead of using the url it is better t
 
 <img width='500' src='/img/writing_content_01.png'/>
 
+This way of linking pages internal to the site won't work if the base url isn't set correctly in the config.toml file. The base url for Methods101 should simply be https://methods101.com/ (and is already set). 
+
 ## Table of contents
 
 The table of contents (TOC) must be enabled in the front matter as discussed [here]({{< ref "/docs/front_matter.MD" >}}). The TOC is created by compiling a list of the headings in the RMarkdown document. It will only take heading levels 1 through 3.
+
+For non RMarkdown pages (almost all Methods101 pages should be RMarkdown) you can access a TOC native to the Hugo Academic theme by inserting /{{% toc %}} after the front matter. The TOC at the top of this page was rendered in this way. 
 
 ## Escaping RMarkdown
 
@@ -40,6 +44,10 @@ Sometimes there are situations in which you want to escape the RMarkdown syntax.
 An example is:
 
 \\\* text \\\*
+
+which will render like:
+
+\*text\*
 
 ## Headings
 
