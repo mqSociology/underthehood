@@ -29,7 +29,7 @@ To change from the default you create a file with the identical file name as the
 
 Aside from the custom sidebar file there is a custom docs_layout.HTML file and a custom header.HTML file. 
 
-#### Header
+#### Header.HTML
 
 The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website.
 
