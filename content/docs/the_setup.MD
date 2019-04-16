@@ -37,6 +37,10 @@ It will either say "published", "building", or "failed".
 
 Each is self explanatory. If it failed to deploy then you can select that log and review the reason why it failed.
 
+### netlify.toml
+
+There is a file located in the root directory called netlify.toml. It handles [redirects]({{<ref "/docs/redirects.MD" >}}) (where one address is redirected to another) and Hugo version. Hugo version currently in use by the site is 0.53 while the most recent version is 0.55.
+
 ## GitHub
 
 The Methods101 account for GitHub has repositories for various websites associated with it. You can have administrator access to these repositories with a personal account if you are given permission by the main account. 
