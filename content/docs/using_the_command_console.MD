@@ -15,7 +15,6 @@ menu:
 
 ---
 
-The information on this page will also be in the website management section of the site. This page serves to cover the basics and to orientate you when first starting out.
 
 ## Recap
 
