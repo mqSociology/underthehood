@@ -29,7 +29,17 @@ To change from the default you create a file with the identical file name as the
 
 Aside from the custom sidebar file there is a custom docs_layout.HTML file and a custom header.HTML file. 
 
-The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website. A separate page will be created giving a rundown on some relevant changes made to this files.
+#### Header
+
+The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website.
+
+Changes to this file include:
+
+* The addition of some Javascript to deal with a [flash of unstyled content](https://en.wikipedia.org/wiki/Flash_of_unstyled_content) (FOUC) problem. The Javascript made it so that the page would not display until the CSS file had been loaded. Lines 4 to 8 in the header.HTML contain the script. 
+
+* The changing of the icons that appear in social media platforms (Facebook, Whatsapp, etc.) when the site is linked to (located at line 141, the image is called MQ1) and the icon that appears in the browser tab (located at line 123, the image is called favicon.ico)
+
+To find these lines quickly you can simply do a control+f search of the file and insert the image name.
 
 ### Custom CSS
 
