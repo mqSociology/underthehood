@@ -45,3 +45,10 @@ To find these lines quickly you can simply do a control+f search of the file and
 
 The custom CSS file can be found at \static\css\custom_css.css. Do not change the default Academic theme CSS file as it will just be overwritten by the custom file. 
 
+Changes to this file are too numerous to mention. The file is commented (which is a practice that should be continued) and can be navigated in conjunction with the inspect function with a browser.
+
+For the uninitiated the inspect function is accessed by right clicking a part of a webpage and selecting inspect. This will open up a console where you can see lines in the css file that pertains to the selected element:
+
+<img width='500' src='/img/modifying_layout_and_style_02.png'/>
+
+In this case the relevant line for the active class is 2077. 
