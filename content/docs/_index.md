@@ -15,7 +15,33 @@ Underthehood is a documentation site for methods101.com. The purpose of this sit
 
 **For new website content creators** who haven't used github, gitbash, and Markdown before, it is recommended you read through each of the pages under the Getting Started menu tab on the left first.
 
+### Site navigation
 
+**Getting started** tab has a basic tutorial for creating and uploading content for the website. 
+
+**Website Management** tab covers the following:
+
+* How the website is setup (where it is hosted, how it is deployed, what Hugo is, etc.)
+
+* What the config.toml file is and a rundown of some useful variables contained withing
+
+* How to manage redirects
+
+* What changes have been made to the css and HTML and how to go about this yourself
+
+* Other relevant matters
+
+**Content management** tab covers the following:
+
+* How to create a RMarkdown file (regular content) and why we use them 
+
+* What front matter is and why it is important
+
+* How to create menu entries
+
+* How to insert images and videos 
+
+* Other useful things
 
 
 
