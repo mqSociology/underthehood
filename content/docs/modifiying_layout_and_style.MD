@@ -15,8 +15,6 @@ menu:
 
 ---
 
-{{% toc %}}
-
 Modifying the layout and style requires altering the default [Academic](https://sourcethemes.com/academic/docs/) theme. Going to this [Academic theme](https://sourcethemes.com/academic/docs/) link will show you how much has been changed from the default layout (and that page is also a good source of information about the Academic theme).
 
 In the repoistitory the theme files can be found here: 
