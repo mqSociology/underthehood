@@ -17,7 +17,7 @@ Underthehood is a documentation site for methods101.com. The purpose of this sit
 
 ### Site navigation
 
-**Getting started** tab has a basic tutorial for creating and uploading content for the website. 
+**Getting started** tab has a basic tutorial for creating and uploading content for the website. It also covers what programs you need to get set up.
 
 **Website Management** tab covers the following:
 
