@@ -23,11 +23,15 @@ In the repoistitory the theme files can be found here:
 
 This has the default layouts of a page, the sidebar, the topbar, etc. It also has the defualt images of the site and the default css styling. 
 
-To change the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory. For example, the default sidemenu is located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML while the custom sidemenu is located at \layouts\partials\docs_sidebar.HTML. 
+### Custom HTML files
+
+To change from the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory. For example, the default sidemenu is located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML while the custom sidemenu is located at \layouts\partials\docs_sidebar.HTML. 
 
 Aside from the custom sidebar file there is a custom docs_layout.HTML file and a custom header.HTML file. 
 
 The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website. A separate page will be created giving a rundown on some relevant changes made to this files.
 
-The **custom CSS** file can be found at \static\css\custom_css.css. Do not change the default Academic theme CSS file as it will just be overwritten by the custom file. 
+### Custom CSS
+
+The custom CSS file can be found at \static\css\custom_css.css. Do not change the default Academic theme CSS file as it will just be overwritten by the custom file. 
 
