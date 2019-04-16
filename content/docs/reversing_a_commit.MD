@@ -55,4 +55,6 @@ git reset -- hard **(paste the commit identifier from your clipboard)**
 
 git push -- force
 
+<img width='700' src='/img/reversing_a_commit_04.png'/>
+
 All commits that occured after the chosen commit will be deleted. You should backup the files before doing this procedure.
