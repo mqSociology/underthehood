@@ -15,6 +15,8 @@ menu:
 
 ---
 
+{{% toc %}}
+
 ## How it all works
 
 The methods101.com website is stored on [GitHub](https://github.com/) and deployed by [Netlify](https://www.netlify.com/). Furthermore, the site uses the static website generator [Hugo](https://gohugo.io/documentation/) and the Hugo [Academic theme](https://sourcethemes.com/academic/docs/). Hugo provides the framework for the website. It has its own code associated with it that is used in conjunction with HTML, CSS, and Javascript.

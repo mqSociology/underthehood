@@ -59,13 +59,13 @@ To embed a YouTube video in RMarkdown use the following code:
 
 `` ` ```` ` ```` ` ``{r, eval=TRUE, echo=FALSE}
 
-blogdown::shortcode("youtube", "NbUL4zC70Wo")`` ` ```` ` ```` ` ``
+blogdown::shortcode("youtube", "zPrI8db74kA")`` ` ```` ` ```` ` ``
 
 
 Where:
 
-08WeoqWilRQ
+zPrI8db74kA
 
 is taken from the url of the video:
 
-https://www.youtube.com/watch?v=08WeoqWilRQ
+https://www.youtube.com/watch?v=zPrI8db74kA
