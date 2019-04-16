@@ -23,7 +23,7 @@ The config.toml file holds many global variables for the site. Be careful what y
 
 **color_theme:** lets you choose which colour theme will be used to colour the site. We use our own called MQtheme. These themes are located at \themes\hugo-academic\data\themes\ and the custom themes here are probably the only files that should ever be changed in the \theme\ folder.
 
-**custom_css:** designates the file that will overwrite the theme css file. This should be left alone (the config entry not the css file.
+**custom_css:** designates the file that will overwrite the theme css file. This should be left alone (the config entry not the css file).
 
 **logo:** if this has an entry (for Methods101 it does) then it will override the title variable described above. The entry should be the name of the image in the \static\img\ folder that you want to be the logo.
 
