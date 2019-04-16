@@ -41,6 +41,12 @@ For non RMarkdown pages (almost all Methods101 pages should be RMarkdown) you ca
 
 after the front matter. The TOC at the top of this page was rendered in this way and only uses the first two levels of headings. 
 
+Alternatively, for non RMarkdown files you can insert:
+
+``` toc: true ```
+
+in the front matter under the maths variable.
+
 ## Escaping RMarkdown
 
 Sometimes there are situations in which you want to escape the RMarkdown syntax. For example, if you want to have \*text with asterisks\* and not have it be in itallics like *this*. To do this use a backslash (\\) behind each character with special meaning. 
