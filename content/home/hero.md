@@ -27,12 +27,4 @@ weight = 10
 #  label = '<i class="fas fa-download"></i> Install Now'
 +++
 
-Methods101.com provides easy to follow lessons on social research methods. 
 
-The site focuses on teaching you how to analyse quantitative data with the statistical packages R and SPSS. 
-
-However, we also cover a range of other topics, including:
-
-* an introduction to statistics,
-* advice on academic writing, and 
-* guides to qualitative analysis with software like NVivo and Dedoose. 

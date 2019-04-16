@@ -15,4 +15,6 @@ menu:
 
 ---
 
-Domain management is done through Netlify. 
+Domain management is done through Netlify. Once logged in on the methods101 account go to the domain settings page shown below:
+
+<img width='800' src='/img/domain_management_01.png'/>
