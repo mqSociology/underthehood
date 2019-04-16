@@ -15,18 +15,12 @@ menu:
 
 ---
 
+Useful resoruces for website management:
 
+* [Academic theme documentation](https://sourcethemes.com/academic/docs/)
 
+* [W3Schools for HTML, CSS, and Javascript needs](https://www.w3schools.com/html/default.asp)
 
-Useful resoruces for website management
+* Stackoverflow should also be an early stop for a problem. 
 
-
-Academic theme documentation:
-
-https://sourcethemes.com/academic/docs/
-
-W3Schools for HTML, CSS, and Javascript needs
-
-https://www.w3schools.com/html/default.asp
-
-Stackoverflow should also be an early stop for a problem. 
+* [The Blogdown site has great documentation](https://bookdown.org/yihui/blogdown/) (this site is geared towards RMarkdown and RStudio)
