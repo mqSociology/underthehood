@@ -77,4 +77,4 @@ Now you can run the site locally by using the command "blogdown::serve_site()"
 
 <img width='400' src='/img/introduction_image_05.png'/>
 
-Take the address that appears here and past it into your internet browser (in this case the address is http://127.0.0.1:4321).
+Take the address that appears here and paste it into your internet browser (in this case the address is http://127.0.0.1:4321).
