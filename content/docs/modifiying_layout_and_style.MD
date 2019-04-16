@@ -15,6 +15,8 @@ menu:
 
 ---
 
+{{% toc %}}
+
 Modifying the layout and style requires altering the default [Academic](https://sourcethemes.com/academic/docs/) theme. Going to this [Academic theme](https://sourcethemes.com/academic/docs/) link will show you how much has been changed from the default layout (and that page is also a good source of information about the Academic theme).
 
 In the repoistitory the theme files can be found here: 
@@ -52,3 +54,9 @@ For the uninitiated the inspect function is accessed by right clicking a part of
 <img width='500' src='/img/modifying_layout_and_style_02.png'/>
 
 In this case the relevant line for the active class is 2077. 
+
+### Themes
+
+Methods101 uses a custom colouring theme (as opposed to a default Academic theme). These themes can be found at \themes\hugo-academic\data\themes with the mqtheme.toml being the one used by Methods101. This is the only file that should be changed in the \themes\hugo-academic\ folder. 
+
+This custom theme file has a series of colours associated with various variables that will be called upon by Hugo in certain situations. The file is self-explanatory. You can call upon these colours in the CSS file or you can simply insert the colour yourself. I have done both. 
