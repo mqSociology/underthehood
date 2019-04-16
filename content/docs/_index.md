@@ -23,7 +23,7 @@ Underthehood is a documentation site for methods101.com. The purpose of this sit
 
 * How the website is setup (where it is hosted, how it is deployed, what Hugo is, etc.)
 
-* What the config.toml file is and a rundown of some useful variables contained withing
+* What the config.toml file is and a rundown of some useful variables contained within
 
 * How to manage redirects
 
