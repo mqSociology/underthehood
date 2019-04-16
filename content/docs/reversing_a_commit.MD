@@ -23,7 +23,7 @@ NOTE: IF YOU DO THIS IT WILL DELETE EVERYTHING AFTER THE SELECTED COMMIT, SO MAK
 
 Go to the main page of the repository on Github.
 
-<img width='500' src='/img/reversing_a_commit_01.png'/>
+<img width='700' src='/img/reversing_a_commit_01.png'/>
 
 ### Step 2
 
@@ -33,13 +33,13 @@ Click on the commits button seen on the left.
 
 Pick the commit you want to roll back to. Any commits done after this will be deleted. In the picture below the 9cbf342 commit has been selected (you will pick your own commit).
 
-<img width='500' src='/img/reversing_a_commit_02.png'/>
+<img width='700' src='/img/reversing_a_commit_02.png'/>
 
 ### Step 4
 
 After selecting the commit you wish to roll back to (not the commit you wish to delete) you will see the following screen:
 
-<img width='500' src='/img/reversing_a_commit_03.png'/>
+<img width='700' src='/img/reversing_a_commit_03.png'/>
 
 ### Step 5
 
