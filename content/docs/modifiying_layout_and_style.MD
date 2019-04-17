@@ -25,7 +25,9 @@ This has the default layouts of a page, the sidebar, the topbar, etc. It also ha
 
 ### Custom HTML files
 
-To change from the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory. For example, the default sidemenu is located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML while the custom sidemenu is located at \layouts\partials\docs_sidebar.HTML. 
+To change from the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory. 
+
+For example, the default sidemenu is located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML while the custom sidemenu is located at \layouts\partials\docs_sidebar.HTML. 
 
 Aside from the custom sidebar file there is a custom docs_layout.HTML file and a custom header.HTML file. 
 
