@@ -63,6 +63,6 @@ An example of calling upon a colour in the CSS file is as follows:
 
 <img width='500' src='/img/modifying_layout_and_style_03.png'/>
 
-The highlighted text is calling on the menu_primary colour which is given in the mqtheme.toml file as shown here in the highlighted text:
+The highlighted text is calling on the menu_primary colour which is given in the mqtheme.toml file as shown below:
 
 <img width='500' src='/img/modifying_layout_and_style_04.png'/>
