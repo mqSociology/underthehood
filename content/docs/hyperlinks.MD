@@ -25,5 +25,9 @@ If you want to link to an internal page, instead of using the url it is better t
 
 This way of linking pages internal to the site won't work if the base url isn't set correctly in the config.toml file. The base url for Methods101 should simply be https://methods101.com/ (and is already set).  
 
+Also, Netlify won't deploy the website if you link to an internal page that doesn't exist. This can happen when you delete a page that is being linked to or you type a page in wrong. 
 
+The error log on Netlify can pin down the problem for you. 
+
+When this happens Netlify will simply load the most recent version of the website that was problem free. 
 
