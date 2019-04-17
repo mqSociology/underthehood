@@ -51,10 +51,18 @@ For the uninitiated the inspect function is accessed by right clicking a part of
 
 <img width='500' src='/img/modifying_layout_and_style_02.png'/>
 
-In this case the relevant line for the active class is 2077. 
+In this case the relevant line for the .active class is 2077. 
 
 ### Themes
 
-Methods101 uses a custom colouring theme (as opposed to a default Academic theme). These themes can be found at \themes\hugo-academic\data\themes with the mqtheme.toml being the one used by Methods101. This is the only file that should be changed in the \themes\hugo-academic\ folder. 
+Methods101 uses a custom colouring theme (as opposed to a default Academic colour theme). These themes can be found at \themes\hugo-academic\data\themes with the mqtheme.toml being the one used by Methods101. This is the only file that should be changed in the \themes\hugo-academic\ folder. 
 
 This custom theme file has a series of colours associated with various variables that will be called upon by Hugo in certain situations. The file is self-explanatory. You can call upon these colours in the CSS file or you can simply insert the colour yourself. I have done both. 
+
+An example of calling upon a colour in the CSS file is as follows: 
+
+<img width='500' src='/img/modifying_layout_and_style_03.png'/>
+
+The highlighted text is calling on the menu_primary colour which is given in the mqtheme.toml file as shown here in the highlighted text:
+
+<img width='500' src='/img/modifying_layout_and_style_04.png'/>
