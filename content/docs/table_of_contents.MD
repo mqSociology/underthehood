@@ -27,4 +27,4 @@ Alternatively, for non RMarkdown files you can insert:
 
 ``` toc: true ```
 
-in the front matter under the maths variable.
+in the front matter under the maths variable. This will create a table of contents on the left hand side that moves with the page.
