@@ -15,6 +15,8 @@ menu:
 
 ---
 
+{{% toc %}}
+
 The information on this page will also be in the content management section of the site. This page serves to cover the basics and to orientate you when first starting out. Thereafter, I recommend reading the entry you are interested in under content managment in the sidemenu.
 
 ## Markdown vs RMarkdown
