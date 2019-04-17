@@ -15,11 +15,15 @@ menu:
 
 ---
 
+## RMarkdown
+
 The table of contents (TOC) must be enabled in the front matter as discussed [here]({{< ref "/docs/front_matter.MD" >}}). To recap, you must insert the following into the front matter:
 
 <img width='500' src='/img/table_of_contents_01.png'/>
 
  The TOC is created by compiling a list of the headings in the RMarkdown document. It will only take heading levels 1 through 3.
+
+## Markdown
 
 For non RMarkdown pages (almost all Methods101 pages should be RMarkdown) you can access a TOC native to the Hugo Academic theme by inserting: 
 
