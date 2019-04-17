@@ -16,6 +16,8 @@ menu:
 
 ---
 
+{{% toc %}}
+
 ## Some important information
 
 methods101.com and this documentation website use the static site generator [Hugo](https://gohugo.io/) the documentation for which you can find [here](https://gohugo.io/documentation/). We use a modified version of the [Hugo Academic](https://themes.gohugo.io/academic/) theme which provides the basic layout. The site is hosted on [Github](https://github.com/) and deployed by [Netlify](https://www.netlify.com/). 

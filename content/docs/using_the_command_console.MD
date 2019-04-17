@@ -7,7 +7,7 @@ draft: false
 type: docs
 maths: true	
 
-linktitle: "Git Bash"
+linktitle: "Using the Command Console (Git Bash)"
 menu:
   docs:
     parent: Getting Started
@@ -15,6 +15,7 @@ menu:
 
 ---
 
+{{% toc %}}
 
 ## Recap
 
