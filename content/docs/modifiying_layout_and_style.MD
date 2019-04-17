@@ -29,7 +29,7 @@ To change from the default you create a file with the identical file name as the
 
 For example, the default sidemenu is located at \themes\hugo-academic\layouts\partials\docs_sidebar.HTML while the custom sidemenu is located at \layouts\partials\docs_sidebar.HTML. 
 
-Aside from the custom sidebar file there is a custom docs_layout.HTML file and a custom header.HTML file. 
+In this folder there is also a custom docs_layout.HTML file and a custom header.HTML file. 
 
 #### Header.HTML
 
