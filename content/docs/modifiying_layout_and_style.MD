@@ -23,7 +23,7 @@ In the repoistitory the theme files can be found here:
 
 This has the default layouts of a page, the sidebar, the topbar, etc. It also has the defualt images of the site and the default css styling. 
 
-### Custom HTML files
+## Custom HTML files
 
 To change from the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory. 
 
@@ -31,7 +31,7 @@ For example, the default sidemenu is located at \themes\hugo-academic\layouts\pa
 
 In this folder there is also a custom docs_layout.HTML file and a custom header.HTML file. 
 
-#### Header.HTML
+### Header.HTML
 
 The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website.
 
@@ -41,7 +41,7 @@ Changes to this file include:
 
 * The changing of the icons that appear when the site is linked to in social media platforms (Facebook, Whatsapp, etc.)(located at line 141, the image is called MQ1) and the icon that appears in the browser tab (located at line 123, the image is called favicon.ico). To find these lines quickly you can simply do a control+f search of the file and insert the image name.
 
-### Custom CSS
+## Custom CSS
 
 The custom CSS file can be found at \static\css\custom_css.css. Do not change the default Academic theme CSS file as it will just be overwritten by the custom file. 
 
@@ -53,7 +53,7 @@ For the uninitiated the inspect function is accessed by right clicking a part of
 
 In this case the relevant line for the .active class is 2077. 
 
-### Themes
+## Themes
 
 Methods101 uses a custom colouring theme (as opposed to a default Academic colour theme). These themes can be found at \themes\hugo-academic\data\themes with the mqtheme.toml being the one used by Methods101. This is the only file that should be changed in the \themes\hugo-academic\ folder. 
 
