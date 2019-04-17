@@ -21,3 +21,4 @@ Redirects are done in the the netifly.toml file in the root directory. In this f
 
 <img width='500' src='/img/redirects_01.png'/>
 
+The redirect is from https://methods101.com to https://methods101.com/docs/.
