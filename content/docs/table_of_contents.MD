@@ -29,7 +29,7 @@ For non RMarkdown pages (almost all Methods101 pages should be RMarkdown) you ca
 
 <img width='500' src='/img/table_of_contents_02.png'/>
 
-after the front matter. The TOC at the top of this page was rendered in this way and only uses the first two levels of headings. 
+after the front matter.  
 
 Alternatively, for non RMarkdown files you can insert:
 
