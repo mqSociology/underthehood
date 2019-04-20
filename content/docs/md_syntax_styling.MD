@@ -87,7 +87,7 @@ RMarkdown cannot style the text. Instead, to style the text you need to insert H
 
 To colour the text use the following:
 
-\<span style="color:maroon"> Coloured text \</span> 
+\<span style=color:maroon> Coloured text \</span> 
 
 Which will render like this:
 
