@@ -96,3 +96,22 @@ Which will render like this:
 Some available colours can be found [here](https://www.w3schools.com/colors/colors_names.asp) .
 
 Instead of colour any of the numerous CSS styling options can be inserted. More options can be found [here](https://www.w3schools.com/css/css_text.asp) and elsewhere with a quick google search.
+
+### Dollar signs in text
+
+Problem:
+
+* "How do you insert a dollar sign into text, such as US<span>&#36;</span>50?"
+* The escape characters were not working. Neither ```\$``` or ```\\$``` worked. 
+* The cause was some interaction between the layers of processing of the text file - so the dollar sign would get created in one layer of processing, and then interpreted as maths for the next. 
+
+Solution: 
+
+* ```<span>&#36;</span>```
+
+So for example, this text renders correctly: 
+
+Code: 
+```"How do you insert a dollar sign into text, such as US<span>&#36;</span>50?" ```
+
+Renders as: **"How do you insert a dollar sign into text, such as US<span>&#36;</span>50?"**
