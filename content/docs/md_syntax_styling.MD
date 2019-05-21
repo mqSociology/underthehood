@@ -81,7 +81,7 @@ If you would like to indent the text like this:
 
 Then use \&nbsp; for each space you would like the text to be indented by (the above was six spaces). This can also be done using HTML.
 
-### Formatting with HTML
+## Formatting with HTML
 
 RMarkdown cannot style the text. Instead, to style the text you need to insert HTML into the RMD document. 
 
@@ -97,7 +97,7 @@ Some available colours can be found [here](https://www.w3schools.com/colors/colo
 
 Instead of colour any of the numerous CSS styling options can be inserted. More options can be found [here](https://www.w3schools.com/css/css_text.asp) and elsewhere with a quick google search.
 
-### Dollar signs in text
+## Dollar signs in text
 
 Problem:
 
@@ -116,7 +116,7 @@ Code:
 
 Renders as: **"How do you insert a dollar sign into text, such as US<span>&#36;</span>50?"**
 
-### Symbols in text - use HTML
+## Symbols in text - use HTML
 
 We need to use HTML symbols (between <span> tags) for most symbols.
 
