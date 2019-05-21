@@ -115,3 +115,14 @@ Code:
 ```"How do you insert a dollar sign into text, such as US<span>&#36;</span>50?" ```
 
 Renders as: **"How do you insert a dollar sign into text, such as US<span>&#36;</span>50?"**
+
+### Symbols in text - use HTML
+
+We need to use HTML symbols (between <span> tags) for most symbols.
+
+This is a useful website where you can easily look up HTML tags for symbols
+
+https://www.rapidtables.com/web/html/html-codes.html
+
+
+
