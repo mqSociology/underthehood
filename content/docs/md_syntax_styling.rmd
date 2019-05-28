@@ -182,21 +182,23 @@ b_0 = &\text{ intercept (i.e. value of }y \text{ when all }x=0 \text{)} \\
 
 
 $\begin{aligned}
+\\
+\\
 r = &\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\
 \\
 \text{Where:} \\
 \bar x = &\text{ mean of x} \\
 \bar y = &\text{ mean of y} \\
-\bar N = &\text{ number of observations} \\
+N = &\text{ number of observations} \\
 s_x = &\text{ standard deviation of x} \\
 s_y = &\text{ standard deviation of y} \\
+                          &\\
 \end{aligned}$
 
 
 
 
 $\begin{aligned}
-\\
 \\
 \\
 y = &b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\
