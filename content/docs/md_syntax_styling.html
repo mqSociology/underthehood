@@ -1,0 +1,149 @@
+---
+title: "Markdown Syntax and Styling"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+output:
+  blogdown::html_page:
+    toc: true
+
+linktitle: "Markdown Syntax and Styling"
+menu: 
+  docs:
+    parent: Content Management
+    weight: 80
+
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#escaping-rmarkdown">Escaping RMarkdown</a></li>
+<li><a href="#headings">Headings</a></li>
+<li><a href="#formatting-content">Formatting content</a></li>
+<li><a href="#formatting-with-html">Formatting with HTML</a></li>
+<li><a href="#dollar-signs-in-text">Dollar signs in text</a></li>
+<li><a href="#symbols-in-text---use-html">Symbols in text - use HTML</a></li>
+<li><a href="#adding-borders-to-images">Adding borders to images</a></li>
+<li><a href="#formulas-with-latex-maths">Formulas with Latex Maths</a></li>
+</ul>
+</div>
+
+<div id="escaping-rmarkdown" class="section level2">
+<h2>Escaping RMarkdown</h2>
+<p>Sometimes there are situations in which you want to escape the RMarkdown syntax. For example, if you want to have *text with asterisks* and not have it be in itallics like <em>this</em>. To do this use a backslash (\) behind each character with special meaning.</p>
+<p>An example is:</p>
+<p>\* text \*</p>
+<p>which will render like:</p>
+<p>*text*</p>
+</div>
+<div id="headings" class="section level2">
+<h2>Headings</h2>
+<p>Headings are rendered by using a # before the heading content. There are six heading levels which are triggered using more #. So a level four heading would be done like this:</p>
+<p>#### Heading</p>
+<p>Which would appear like this:</p>
+<div id="heading" class="section level4">
+<h4>Heading</h4>
+<p>Note: The table of contents for the Methods101 site will only pick up on heading levels 1 through 3 when generating.</p>
+</div>
+</div>
+<div id="formatting-content" class="section level2">
+<h2>Formatting content</h2>
+<p>For a Markdown cheat sheet go <a href="https://www.markdownguide.org/cheat-sheet/">here.</a></p>
+<p>Some useful RMarkdown formatting commands (these are the same as Markdown):</p>
+<p><strong>Bold text:</strong> Use a double ** before and after the text like this *<em>bold text*</em> which will render like this <strong>bold text</strong></p>
+<p><strong>Itallic text:</strong> Use a single * before and after the text like this *itallic text* which will render like this <em>itallic text</em></p>
+<p>Lists are either ordered or unordered.</p>
+<p><strong>Unordered lists</strong> are created like this:</p>
+<p>* List</p>
+<p>* List</p>
+<p>* List</p>
+<p>And render like this:</p>
+<ul>
+<li><p>List</p></li>
+<li><p>List</p></li>
+<li><p>List</p></li>
+</ul>
+<p><strong>Ordered lists</strong> are created (and rendered) like this:</p>
+<ol style="list-style-type: decimal">
+<li><p>List</p></li>
+<li><p>List</p></li>
+<li><p>List</p></li>
+</ol>
+<p>If you would like to indent the text like this:</p>
+<p>       Indented text</p>
+<p>Then use &amp;nbsp; for each space you would like the text to be indented by (the above was six spaces). This can also be done using HTML.</p>
+</div>
+<div id="formatting-with-html" class="section level2">
+<h2>Formatting with HTML</h2>
+<p>RMarkdown cannot style the text. Instead, to style the text you need to insert HTML into the RMD document.</p>
+<p>To colour the text use the following:</p>
+<p>&lt;span style=color:maroon&gt; Coloured text &lt;/span&gt;</p>
+<p>Which will render like this:</p>
+<p><span style="color:maroon"> Coloured text </span></p>
+<p>Some available colours can be found <a href="https://www.w3schools.com/colors/colors_names.asp">here</a> .</p>
+<p>Instead of colour any of the numerous CSS styling options can be inserted. More options can be found <a href="https://www.w3schools.com/css/css_text.asp">here</a> and elsewhere with a quick google search.</p>
+</div>
+<div id="dollar-signs-in-text" class="section level2">
+<h2>Dollar signs in text</h2>
+<p>Problem:</p>
+<ul>
+<li>“How do you insert a dollar sign into text, such as US<span>$</span>50?”</li>
+<li>The escape characters were not working. Neither <code>\$</code> or <code>\\$</code> worked.</li>
+<li>The cause was some interaction between the layers of processing of the text file - so the dollar sign would get created in one layer of processing, and then interpreted as maths for the next.</li>
+</ul>
+<p>Solution:</p>
+<ul>
+<li><code>&lt;span&gt;&amp;#36;&lt;/span&gt;</code></li>
+</ul>
+<p>So for example, this text renders correctly:</p>
+<p>Code:</p>
+<pre><code>&quot;How do you insert a dollar sign into text, such as US&lt;span&gt;&amp;#36;&lt;/span&gt;50?&quot; </code></pre>
+<p>Renders as:</p>
+<p>“How do you insert a dollar sign into text, such as US<span>$</span>50?”</p>
+</div>
+<div id="symbols-in-text---use-html" class="section level2">
+<h2>Symbols in text - use HTML</h2>
+<p>We need to use HTML symbols (between <span> tags) for most symbols.</p>
+<p>This is a useful website where you can easily look up HTML tags for symbols</p>
+<p><a href="https://www.rapidtables.com/web/html/html-codes.html" class="uri">https://www.rapidtables.com/web/html/html-codes.html</a></p>
+</div>
+<div id="adding-borders-to-images" class="section level2">
+<h2>Adding borders to images</h2>
+<p>The following text adds borders to images, if included after the YAML in each page.</p>
+<pre><code>&lt;style&gt; img { padding:1px; border:1px solid #021a40; } &lt;/style&gt;</code></pre>
+</div>
+<div id="formulas-with-latex-maths" class="section level2">
+<h2>Formulas with Latex Maths</h2>
+<p>Latex Maths is the best way to render formulas.</p>
+<p>You use a single dollar sign <span>$</span> for inline formulas, and a double dollar sign <span>$</span><span>$</span> for formulas that appear in the middle of the page on their own line.</p>
+<p>I (Nick) have found that it is better to use the single dollar signs, and the formula listed below, as it allows you to layout the formulas and the definitions of terms in a more tight and neat manner.</p>
+<p>Note that the &amp; sign indicated the part of each line that should be aligned with the others. Also <code>\text</code> is a useful command, as it allows you to put text and spaces into the lines of Latex maths.</p>
+<p>The double backslash <code>\\</code> means end of line.</p>
+<pre><code>$\begin{aligned}
+r = &amp;\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\
+\\
+\text{Where:} \\
+\bar x = &amp;\text{ mean of x} \\
+\bar y = &amp;\text{ mean of y} \\
+\bar N = &amp;\text{ number of observations} \\
+s_x = &amp;\text{ standard deviation of x} \\
+s_y = &amp;\text{ standard deviation of y} \\
+\end{aligned}$
+
+$\begin{aligned}
+y = &amp;b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\
+\\
+\text{Where:} \\
+y=&amp;\text{ dependent variable (outcome variables)} \\
+x_1 , x_2 , \text{ ... }x_n = &amp;\text{ independent variables (predictor variables)} \\
+b_1 , b_2 , \text{ ... }b_n  = &amp;\text{ slope of relationship between }y\text{ and }x_1 , x_2 , \text{ ... }x_n  \\
+b_0 = &amp;\text{ intercept (i.e. value of }y \text{ when all }x=0 \text{)} \\
+\end{aligned}$</code></pre>
+<p><span class="math inline">\(\begin{aligned} r = &amp;\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\ \\ \text{Where:} \\ \bar x = &amp;\text{ mean of x} \\ \bar y = &amp;\text{ mean of y} \\ \bar N = &amp;\text{ number of observations} \\ s_x = &amp;\text{ standard deviation of x} \\ s_y = &amp;\text{ standard deviation of y} \\ \end{aligned}\)</span></p>
+<p><span class="math inline">\(\begin{aligned} y = &amp;b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\ \\ \text{Where:} \\ y=&amp;\text{ dependent variable (outcome variables)} \\ x_1 , x_2 , \text{ ... }x_n = &amp;\text{ independent variables (predictor variables)} \\ b_1 , b_2 , \text{ ... }b_n = &amp;\text{ slope of relationship between }y\text{ and }x_1 , x_2 , \text{ ... }x_n \\ b_0 = &amp;\text{ intercept (i.e. value of }y \text{ when all }x=0 \text{)} \\ \end{aligned}\)</span></p>
+</div>
