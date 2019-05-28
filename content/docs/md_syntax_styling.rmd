@@ -192,7 +192,6 @@ r = &\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\
 N = &\text{ number of observations} \\
 s_x = &\text{ standard deviation of x} \\
 s_y = &\text{ standard deviation of y} \\
-                          &\\
 \end{aligned}$
 
 

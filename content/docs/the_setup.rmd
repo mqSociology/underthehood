@@ -39,7 +39,7 @@ Each is self explanatory. If it failed to deploy then you can select that log an
 
 ### netlify.toml
 
-There is a file located in the root directory called netlify.toml. It handles [redirects]({{<ref "/docs/redirects.MD" >}}) (where one address is redirected to another) and Hugo version. Hugo version currently in use by the site is 0.53 while the most recent version is 0.55.
+There is a file located in the root directory called netlify.toml. It handles [redirects]({{<ref "/docs/redirects.md" >}}) (where one address is redirected to another) and Hugo version. Hugo version currently in use by the site is 0.53 while the most recent version is 0.55.
 
 ## GitHub
 
@@ -54,7 +54,7 @@ Hugo provides the framework within which the website works. The best example of 
 <img width='800' src='/img/the_setup_02.png'/>
 
 Much of what is shown here is HTML. However the bits of code in {{ }} are calling on the Hugo framework to do work. Hugo connects the site together. A front matter menu entry is called on here in code chunks like:
-
+ 
 ```
   {{ with (index .Site.Menus $menu_name) }}
   {{ range (index $.Site.Menus $menu_name).ByWeight }} 
