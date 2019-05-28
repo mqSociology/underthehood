@@ -192,6 +192,8 @@ s_x = &\text{ standard deviation of x} \\
 s_y = &\text{ standard deviation of y} \\
 \end{aligned}$
 
+
+
 $\begin{aligned}
 y = &b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\
 \\
