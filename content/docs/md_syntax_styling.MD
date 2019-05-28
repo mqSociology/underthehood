@@ -124,5 +124,66 @@ This is a useful website where you can easily look up HTML tags for symbols
 
 https://www.rapidtables.com/web/html/html-codes.html
 
+## Adding borders to images
 
+The following text adds borders to images, if included after the YAML in each page.
+
+```<style> img { padding:1px; border:1px solid #021a40; } </style>```
+
+## Formulas with Latex Maths
+Latex Maths is the best way to render formulas. 
+
+You use a single dollar sign \$ for inline formulas, and a double dollar sign \$\$ for formulas that appear in the middle of the page on their own line. 
+
+I (Nick) have found that it is better to use the single dollar signs, and the formula listed below, as it allows you to layout the formulas and the definitions of terms in a more tight and neat manner.
+
+Note that the & sign indicated the part of each line that should be aligned with the others.
+Also \text is a useful command, as it allows you to put text and spaces into the lines of Latex maths.
+
+The double backslash means end of line.
+
+```
+$\begin{aligned}
+r = &\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\
+\\
+\text{Where:} \\
+\bar x = &\text{ mean of x} \\
+\bar y = &\text{ mean of y} \\
+\bar N = &\text{ number of observations} \\
+s_x = &\text{ standard deviation of x} \\
+s_y = &\text{ standard deviation of y} \\
+\end{aligned}$
+
+$\begin{aligned}
+y = &b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\
+\\
+\text{Where:} \\
+y=&\text{ dependent variable (outcome variables)} \\
+x_1 , x_2 , \text{ ... }x_n = &\text{ independent variables (predictor variables)} \\
+b_1 , b_2 , \text{ ... }b_n  = &\text{ slope of relationship between }y\text{ and }x_1 , x_2 , \text{ ... }x_n  \\
+b_0 = &\text{ intercept (i.e. value of }y \text{ when all }x=0 \text{)} \\
+\end{aligned}$
+```
+
+
+$\begin{aligned}
+r = &\frac{\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{(N-1)s_x s_y} \\
+\\
+\text{Where:} \\
+\bar x = &\text{ mean of x} \\
+\bar y = &\text{ mean of y} \\
+\bar N = &\text{ number of observations} \\
+s_x = &\text{ standard deviation of x} \\
+s_y = &\text{ standard deviation of y} \\
+\end{aligned}$
+
+$\begin{aligned}
+y = &b_1 x_1 + b_2 x_2 + b_3 x_3 + ... + b_0 + e \\
+\\
+\text{Where:} \\
+y=&\text{ dependent variable (outcome variables)} \\
+x_1 , x_2 , \text{ ... }x_n = &\text{ independent variables (predictor variables)} \\
+b_1 , b_2 , \text{ ... }b_n  = &\text{ slope of relationship between }y\text{ and }x_1 , x_2 , \text{ ... }x_n  \\
+b_0 = &\text{ intercept (i.e. value of }y \text{ when all }x=0 \text{)} \\
+\end{aligned}$
 
