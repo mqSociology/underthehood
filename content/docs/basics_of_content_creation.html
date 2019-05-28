@@ -1,0 +1,76 @@
+---
+title: "Basics of content creation"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Basics of content creation"
+menu:
+  docs:
+    parent: Getting Started
+    weight: 30
+
+---
+
+
+
+<p>{{% toc %}}</p>
+<p>The information on this page will also be in the content management section of the site. This page serves to cover the basics and to orientate you when first starting out. Thereafter, I recommend reading the entry you are interested in under content managment in the sidemenu.</p>
+<div id="markdown-vs-rmarkdown" class="section level2">
+<h2>Markdown vs RMarkdown</h2>
+<p>RMarkdown is a version of Markdown that lets you render the output of R code that is inserted into the page. The file extension that we use for RMarkdown files is .RMD as opposed to .MD for Markdown files.</p>
+<p>RMarkdown files must be created in conjunction with RStudio for them to work. More on this later.</p>
+<p>To create a new page simply go into notepad++ (or some other suitable text editor) and create a new file. When you save this file remember to save it with the .RMD file extension.</p>
+<p>The file <strong>must be</strong> saved in the content/docs/ folder.</p>
+</div>
+<div id="structure-of-a-page" class="section level2">
+<h2>Structure of a page</h2>
+<p>Each content page starts out with the front matter. The front matter, amongst other things, links the page to predefined layouts (whether that be menu, table of contents, content layout) and places the page in a menu.</p>
+<p>After the front matter comes the content. This content is written in plain text.</p>
+</div>
+<div id="front-matter" class="section level2">
+<h2>Front matter</h2>
+<p>The front matter we use follows the yaml format and should look something like this:</p>
+<p><img width='400' src='/img/basics_of_content_creation_01.png'/></p>
+<p>Note the three dashes at the beginning and end. This signifies the beginning and end of the front matter. Front matter must be at the top of the page.</p>
+<p>Running through the front matter from top to bottom:</p>
+<p><span style="color:maroon"> <strong>Title:</strong> </span> This is the big title that appears at the top of the page</p>
+<p><span style="color:maroon"> <strong>Lastmod:</strong> </span> This tells the reader and content creators the last time this page was modified</p>
+<p><span style="color:maroon"> <strong>Draft:</strong> </span> Set to false this does nothing. If set to true it will hide the page from users.</p>
+<p><span style="color:maroon"> <strong>Maths:</strong> </span> This should be set to true.</p>
+<p><span style="color:maroon"> <strong>The following renders the table of contents (if you don’t want a table of contents don’t include this):</strong> </span></p>
+<p><img width='300' src='/img/basics_of_content_creation_02.png'/></p>
+<p>Note: this method of inserting a table of contents will only work for RMarkdown and not Markdown.</p>
+<p><span style="color:maroon"> <strong>Linktitle:</strong> </span> This is the menu entry for the page.</p>
+<p><span style="color:maroon"> <strong>The following specifies where in the menu and which menu it appears in:</strong> </span></p>
+<p><img width='300' src='/img/basics_of_content_creation_03.png'/></p>
+<p>Specifically, “docs” means that it will appear in the docs sidemenu as opposed to the top menu (which is called “main”). Parent means which parent entry in the side menu should this page appear under. While weight signifies where under the parent entry it should appear with lower weighted entries appearing higher up. So in this case the page appears under SOCI832 as shown below:</p>
+<p><img width='300' src='/img/basics_of_content_creation_04.png'/></p>
+<p>Finally, if you are creating a new parent entry you will need to make a corresponding entry in the config.toml file this will be further explained in the <em>menu entries</em> page under the content management tab.</p>
+</div>
+<div id="content" class="section level2">
+<h2>Content</h2>
+<p>Content is written in plain text or in R code. It may be a good idea to open up an existing page in a text editor to look at how it is done.</p>
+<p>Here I will give a brief overview of some RMarkdown commands and links to some resources to learn more.</p>
+<p>Firstly, to create a <strong>new paragraph</strong> there needs to be a line gap in the Markdown file.</p>
+<p>A <strong>heading</strong> is created with the ##. More hashes indicate a different level of heading. So for example #### Heading will appear like this:</p>
+<div id="heading" class="section level4">
+<h4>Heading</h4>
+<p><strong>Bold</strong> text is created using ** at the beginning and end of the text you want effected.</p>
+<p><strong>Itallic</strong> text is created using * at the beginning and end of the text you want effected.</p>
+<p>Lists are made by having an asterisks at the beginning of each line and render like so:</p>
+<ul>
+<li>List</li>
+<li>List</li>
+<li>List</li>
+</ul>
+</div>
+</div>
+<div id="resources" class="section level2">
+<h2>Resources</h2>
+<p>A Markdown and Yaml cheat sheet can be found <a href="https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/">here</a></p>
+<p>If you see something that is done on one of these pages that is not explained here then I recommend looking through the Markdown file in the repository to see how it was done.</p>
+</div>

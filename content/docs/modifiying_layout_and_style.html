@@ -1,0 +1,55 @@
+---
+title: "Modifying Layout and Style"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Modifying Layout and Style"
+menu:
+  docs:
+    parent: Website Management
+    weight: 50
+
+---
+
+
+
+<p>Modifying the layout and style requires altering the default <a href="https://sourcethemes.com/academic/docs/">Academic</a> theme. Going to this <a href="https://sourcethemes.com/academic/docs/">Academic theme</a> link will show you how much has been changed from the default layout (and that page is also a good source of information about the Academic theme).</p>
+<p>In the repoistitory the theme files can be found here:</p>
+<p><img width='500' src='/img/modifying_layout_and_style_01.jpg'/></p>
+<p>This has the default layouts of a page, the sidebar, the topbar, etc. It also has the defualt images of the site and the default css styling.</p>
+<div id="custom-html-files" class="section level2">
+<h2>Custom HTML files</h2>
+<p>To change from the default you create a file with the identical file name as the default file and place it in the relevant folder found in the root directory.</p>
+<p>For example, the default sidemenu is located at -academic_sidebar.HTML while the custom sidemenu is located at _sidebar.HTML.</p>
+<p>In this folder there is also a custom docs_layout.HTML file and a custom header.HTML file.</p>
+<div id="header.html" class="section level3">
+<h3>Header.HTML</h3>
+<p>The header.HTML file is where things like the logo on the website tab (as in tabs at the top of your internet browser). This file contains most of the metadata for the website.</p>
+<p>Changes to this file include:</p>
+<ul>
+<li><p>The addition of some Javascript to deal with a <a href="https://en.wikipedia.org/wiki/Flash_of_unstyled_content">flash of unstyled content</a> (FOUC) problem. The Javascript made it so that the page would not display until the CSS file had been loaded. Lines 4 to 8 in the header.HTML contain the script.</p></li>
+<li><p>The changing of the icons that appear when the site is linked to in social media platforms (Facebook, Whatsapp, etc.)(located at line 141, the image is called MQ1) and the icon that appears in the browser tab (located at line 123, the image is called favicon.ico). To find these lines quickly you can simply do a control+f search of the file and insert the image name.</p></li>
+</ul>
+</div>
+</div>
+<div id="custom-css" class="section level2">
+<h2>Custom CSS</h2>
+<p>The custom CSS file can be found at _css.css. Do not change the default Academic theme CSS file as it will just be overwritten by the custom file.</p>
+<p>Changes to this file are too numerous to mention. The file is commented (which is a practice that should be continued) and can be navigated in conjunction with the inspect function with a browser.</p>
+<p>For the uninitiated the inspect function is accessed by right clicking a part of a webpage and selecting inspect. This will open up a console where you can see lines in the css file that pertains to the selected element:</p>
+<p><img width='500' src='/img/modifying_layout_and_style_02.png'/></p>
+<p>In this case the relevant line for the .active class is 2077.</p>
+</div>
+<div id="themes" class="section level2">
+<h2>Themes</h2>
+<p>Methods101 uses a custom colouring theme (as opposed to a default Academic colour theme). These themes can be found at -academicwith the mqtheme.toml being the one used by Methods101. This is the only file that should be changed in the -academic folder.</p>
+<p>This custom theme file has a series of colours associated with various variables that will be called upon by Hugo in certain situations. The file is self-explanatory. You can call upon these colours in the CSS file or you can simply insert the colour yourself. I have done both.</p>
+<p>An example of calling upon a colour in the CSS file is as follows:</p>
+<p><img width='500' src='/img/modifying_layout_and_style_03.png'/></p>
+<p>The highlighted text is calling on the menu_primary colour which is given in the mqtheme.toml file as shown below:</p>
+<p><img width='500' src='/img/modifying_layout_and_style_04.png'/></p>
+</div>

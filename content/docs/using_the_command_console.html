@@ -1,0 +1,73 @@
+---
+title: "Using the Command Console (Git Bash)"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Using the Command Console (Git Bash)"
+menu:
+  docs:
+    parent: Getting Started
+    weight: 20
+
+---
+
+
+
+<p>{{% toc %}}</p>
+<div id="recap" class="section level2">
+<h2>Recap</h2>
+<p>The command console was part of the git bash (git for windows) software you installed earlier. When opened it should look like this:</p>
+<p><img width='400' src='/img/utcc_image_01.png'/></p>
+<p>The following command will make a copy of the methods 101 repository on github:</p>
+<p><code>git clone https://github.com/mqSociology/methods101</code></p>
+<p>Where <a href="https://github.com/mqSociology/methods101" class="uri">https://github.com/mqSociology/methods101</a> is the address of the main page of the repository.</p>
+<p>If you wish to update your local version of the repository with the github master version you use the following command:</p>
+<p><code>git pull</code></p>
+<p>The <strong>git pull</strong> command will not work if your local version is further along than the master verson. For example, if you have created a page on your local version (hereafter working directory) and then wished to update your working directory with recent changes to the master version an error will appear. This is to stop you from overwriting work on your working directory.</p>
+</div>
+<div id="uploading-and-other-commands" class="section level2">
+<h2>Uploading and other commands</h2>
+<p>Before you start the process of uploading your changes, make sure the cmd console is in your working directory folder (the local repository location). Do this with the <strong>cd foldername</strong> command.</p>
+<p>To see the status of the master version compared to your working directory run:</p>
+<p><code>git status</code></p>
+<p>This will tell you which files are out of sync.</p>
+<p>Before you upload files to the master repository you must select which files and add them to an index. You can do this with the following command:</p>
+<p><code>git add randomfilepath</code></p>
+<p>This will add only that spefic folder or file to the index. If you wish to add all updated or changed files to the index use:</p>
+<p><code>git add .</code></p>
+<p>For more git add commands go <a href="https://git-scm.com/docs/git-add">here</a>.</p>
+<p>If you then wish to remove a file from the index use:</p>
+<p><code>git reset HEAD randomfilepath</code></p>
+<p>Here you can also use the <strong>git status</strong> command to see which files have been added to the index and which have not.</p>
+<p>To commit the index files to the master repository use:</p>
+<p><code>git commit -m &quot;comment about the update&quot;</code></p>
+<p>The comment is important for letting others and yourself know what the update is for when you look at the repository.</p>
+<p>Finally, to update the master repository with your commited files use:</p>
+<p><code>git push</code></p>
+</div>
+<div id="the-steps-all-over-again" class="section level2">
+<h2>The steps all over again</h2>
+<p>To upload follow these steps:</p>
+<ol style="list-style-type: decimal">
+<li><p>cd randomfolder (if you are not already in the right directory in the command console)</p></li>
+<li><p>git pull (to update your local version to the current master version)</p></li>
+<li><p>git add . (to add updated and changed files to the index for upload)</p></li>
+<li><p>git commit -m “comments” (commits the files for upload and provides comments)</p></li>
+<li><p>git push (uploads the files)</p></li>
+</ol>
+</div>
+<div id="helpful-resources" class="section level2">
+<h2>Helpful resources</h2>
+<p>Documentation about the various commands can be found on the <a href="https://git-scm.com/docs/">git-scm</a> website or by just doing a google search of the command.</p>
+<p>Documentation for some of the commands are here:</p>
+<ul>
+<li><p><a href="https://git-scm.com/docs/git-pull">git pull</a></p></li>
+<li><p><a href="https://git-scm.com/docs/git-add">git add</a></p></li>
+<li><p><a href="https://git-scm.com/docs/git-commit">git commit</a></p></li>
+<li><p><a href="https://git-scm.com/docs/git-push">git push</a></p></li>
+</ul>
+</div>

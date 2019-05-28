@@ -1,0 +1,70 @@
+---
+title: "Introduction"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+toc: true
+
+linktitle: "Introduction"
+menu:
+  docs:
+    parent: Getting Started
+    weight: 10
+
+---
+
+
+<div id="TOC">
+true
+</div>
+
+<p>{{% toc %}}</p>
+<div id="some-important-information" class="section level2">
+<h2>Some important information</h2>
+<p>methods101.com and this documentation website use the static site generator <a href="https://gohugo.io/">Hugo</a> the documentation for which you can find <a href="https://gohugo.io/documentation/">here</a>. We use a modified version of the <a href="https://themes.gohugo.io/academic/">Hugo Academic</a> theme which provides the basic layout. The site is hosted on <a href="https://github.com/">Github</a> and deployed by <a href="https://www.netlify.com/">Netlify</a>.</p>
+</div>
+<div id="programs-you-will-need" class="section level2">
+<h2>Programs You Will Need!</h2>
+<p>You will need some kind of text editor to open, edit, and create documents for the website. Sublime Text is recommended and can be found <a href="https://www.sublimetext.com/">here</a>. Notepad ++ is free and has similar functionality. Notepad ++ can be downloaded <a href="https://notepad-plus-plus.org/download/v7.6.1.html">here</a>.</p>
+<p>You will also need gitbash (git for windows) which can be found <a href="https://gitforwindows.org/">here</a></p>
+</div>
+<div id="github" class="section level2">
+<h2>GitHub</h2>
+<p>To access the github repository you will need a GitHub account. Go <a href="https://github.com/">here</a> and register. Choose the free option!</p>
+<p>Once you have registered ask whomever controls the repository you are interested in to add you. This will give you permission to change the master version of the website. Available repositories are found here:</p>
+<p><img width='400' src='/img/introduction_image_01.png'/></p>
+</div>
+<div id="r-studio" class="section level2">
+<h2>R Studio</h2>
+<p>We use RMarkdown (.RMD) files for generating our content. We use RMD because it allows us to render tables and graphs simply by using R code. If we instead used Markdown files we would have to take screenshots of each table and graph and embed them in each document. Because we use RMD files you will also need to download the R software suite.</p>
+<p>First, download <a href="https://cran.csiro.au/">R</a> and then download the free version of <a href="https://www.rstudio.com/products/rstudio/download/">R Studio</a> which is a GUI for R.</p>
+<p>From here on it is assumed you have a basic knowledge of R Studio, if you do not, then there are plenty of online tutorials on the program.</p>
+</div>
+<div id="setting-up" class="section level2">
+<h2>Setting Up</h2>
+<p>Now it is time to set up a local version of the website that you can change and experiment on at will without changing the master version on GitHub. First, go to the methods101 GitHub repository and click on “clone or download”.</p>
+<p><img width='400' src='/img/introduction_image_02.png'/></p>
+<p>Copy the URL that appears there.</p>
+<p>Next, open up <strong>git cmd</strong> which came with the gitbash package you just installed.</p>
+<p>Into the console that appears type “git clone <a href="https://github.com/accountname/randomrepository.git" class="uri">https://github.com/accountname/randomrepository.git</a>” (this is where you paste the URL)</p>
+<p>Something like this should appear:</p>
+<p><img width='400' src='/img/introduction_image_03.png'/></p>
+<p>Now find the folder that this repository downloaded to. It will likely be in the user folder (in my case “Julie”). Open up the methods101 repository and you should see something like this:</p>
+<p><img width='400' src='/img/introduction_image_04.png'/></p>
+<p>Open the “project-kickstart-r” file (the one that is R Project file type not the png).</p>
+<p>You will need the following packages (just copy and paste each of the commands below into the R Studio command console):</p>
+<ul>
+<li>install.packages(“blogdown”)</li>
+<li>install.packages(“devtools”)</li>
+<li>install.packages(“rmarkdown”)</li>
+<li>install.packages(“readr”)</li>
+<li>blogdown::install_hugo()</li>
+<li>blogdown::install_theme(theme = “gcushen/hugo-academic”)</li>
+</ul>
+<p>Now you can run the site locally by using the command “blogdown::serve_site()”</p>
+<p><img width='400' src='/img/introduction_image_05.png'/></p>
+<p>Take the address that appears here and paste it into your internet browser (in this case the address is <a href="http://127.0.0.1:4321" class="uri">http://127.0.0.1:4321</a>).</p>
+</div>

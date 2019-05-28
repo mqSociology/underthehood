@@ -1,0 +1,53 @@
+---
+title: "Reversing a Commit"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Reversing a Commit"
+menu:
+  docs:
+    parent: Website Management
+    weight: 190
+
+---
+
+
+
+<p>This page was put separate so that it can be clearly identified in case of emergency. The following will cover how to reverse a commit on GitHub.</p>
+<p>NOTE: IF YOU DO THIS IT WILL DELETE EVERYTHING AFTER THE SELECTED COMMIT, SO MAKE SURE NO ONE ELSES CODE IS BEING DELETED, AND/OR YOU HAVE SAVED VERSIONS OF THE DELETED CODE SOMEWHERE ELSE. BACKING UP THE REPOSITORY BEFORE DOING THIS IS A GOOD IDEA (JUST COPY THE REPOSITORY AND PASTE SOMEWHERE ELSE).</p>
+<div id="step-1" class="section level3">
+<h3>Step 1</h3>
+<p>Go to the main page of the repository on Github.</p>
+<p><img width='700' src='/img/reversing_a_commit_01.png'/></p>
+</div>
+<div id="step-2" class="section level3">
+<h3>Step 2</h3>
+<p>Click on the commits button seen on the left.</p>
+</div>
+<div id="step-3" class="section level3">
+<h3>Step 3</h3>
+<p>Pick the commit you want to roll back to. Any commits done after this will be deleted. In the picture below the 9cbf342 commit has been selected (you will pick your own commit).</p>
+<p><img width='700' src='/img/reversing_a_commit_02.png'/></p>
+</div>
+<div id="step-4" class="section level3">
+<h3>Step 4</h3>
+<p>After selecting the commit you wish to roll back to (not the commit you wish to delete) you will see the following screen:</p>
+<p><img width='700' src='/img/reversing_a_commit_03.png'/></p>
+</div>
+<div id="step-5" class="section level3">
+<h3>Step 5</h3>
+<p>Copy the highlighted text shown above (the text beside “commit”) - this is the identifier for that commit.</p>
+<p>Note: I cut off part of the identifier in the screenshot so that it is not accidentally used.</p>
+</div>
+<div id="step-6" class="section level3">
+<h3>Step 6</h3>
+<p>Open up the command console (git bash) and type (this assumes you are in the relevant repository):</p>
+<p>git reset – hard <strong>(paste the commit identifier from your clipboard)</strong></p>
+<p>git push – force</p>
+<p><img width='700' src='/img/reversing_a_commit_04.png'/></p>
+<p>All commits that occured after the chosen commit will be deleted. You should backup the files before doing this procedure.</p>
+</div>

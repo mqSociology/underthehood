@@ -1,0 +1,27 @@
+---
+title: "Hyperlinks"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Hyperlinks"
+menu:
+  docs:
+    parent: Content Management
+    weight: 60
+
+---
+
+
+
+<p>To link to an external page use the following code:</p>
+<p><code>[text](randomsite.com)</code></p>
+<p>If you want to link to an internal page, instead of using the url it is better to link to the file the page is generated from. This is useful in situations where you might want to change the base URL of the site but do not want to go back and edit all of your content to fix the resulting broken links. The command for this is here:</p>
+<p><img width='500' src='/img/hyperlinks_01.png'/></p>
+<p>This way of linking pages internal to the site won’t work if the base url isn’t set correctly in the config.toml file. The base url for Methods101 should simply be <a href="https://methods101.com/" class="uri">https://methods101.com/</a> (and is already set).</p>
+<p>Also, Netlify won’t deploy the website if you link to an internal page that doesn’t exist. This can happen when you delete a page that is being linked to or you type the file address in wrong.</p>
+<p>The error log on Netlify can pin down the problem for you.</p>
+<p>When this happens Netlify will simply load the most recent version of the website that was problem free.</p>

@@ -1,0 +1,48 @@
+---
+title: "Menu Entries"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Menu Entries"
+menu:
+  docs:
+    parent: Content Management
+    weight: 20
+
+---
+
+
+
+<p>There are two menus in operation on the Methods101 site.</p>
+<p>The menu that is used the most (if not 100% of the time) is the side menu which looks like this:</p>
+<p><img width='300' src='/img/menu_entries_01.png'/></p>
+<p>The other menu is the topbar which currently only consists of:</p>
+<p><img width='300' src='/img/menu_entries_02.png'/></p>
+<div id="front-matter" class="section level3">
+<h3>Front Matter</h3>
+<p>To make a new menu entry you must insert the following in the front matter of a page in the docs folder:</p>
+<p><img width='300' src='/img/menu_entries_03.png'/></p>
+<p><strong>Linktitle</strong> is the name of the page in the sidemenu.</p>
+<p><strong>Parent</strong> determines which parent tab the page will go under.</p>
+<p><strong>Weight</strong> determines the position of the page under the parent tab. Higher numbers go further down.</p>
+</div>
+<div id="config.toml" class="section level3">
+<h3>Config.toml</h3>
+<p>To create a new parent tab (i.e. About, How to Analyse Data, SSCI202, etc.) you must add an entry in the <strong>config.toml</strong> file.</p>
+<p>While simply using a unique parent tab name in the front matter of a page will create a new parent tab, it will not allow you to position the parent tab. To position the parent tab (by using a weight value) we use an entry in the config file which is show below:</p>
+<p><img width='500' src='/img/menu_entries_04.png'/></p>
+<div id="topbar-menu" class="section level4">
+<h4>Topbar menu</h4>
+<p>The <strong>config.toml</strong> file is also where we add menu entries for the topbar. The <strong>menu.main</strong> entry is for the topbar while the <strong>menu.docs</strong> entry is for the sidemenu.</p>
+<p>More menu entries can be added to the topbar and a dropdown functionality exists. Both of these work the same way as the sidemenu which has already been explained. The only difference is that these menu entries are only created in the <strong>config.toml</strong> file.</p>
+<p>It should be noted that the top bar dropdown functionality has not been styled (it has the default Academic setting). If this functionality is to be used the CSS for it will need to be adjusted first.</p>
+</div>
+</div>
+<div id="sidemenu-title" class="section level3">
+<h3>Sidemenu title</h3>
+<p>The sidemenu title content is in the layout/partial/docs_sidebar file. It starts around line 8 if you want to change it. The class will tell you where to look in the css file if you want to change the formatting.</p>
+</div>

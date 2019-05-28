@@ -1,0 +1,62 @@
+---
+title: "The Setup"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "The Setup"
+menu:
+  docs:
+    parent: Website Management
+    weight: 10
+
+---
+
+
+
+<p>{{% toc %}}</p>
+<div id="how-it-all-works" class="section level2">
+<h2>How it all works</h2>
+<p>The methods101.com website is stored on <a href="https://github.com/">GitHub</a> and deployed by <a href="https://www.netlify.com/">Netlify</a>. Furthermore, the site uses the static website generator <a href="https://gohugo.io/documentation/">Hugo</a> and the Hugo <a href="https://sourcethemes.com/academic/docs/">Academic theme</a>. Hugo provides the framework for the website. It has its own code associated with it that is used in conjunction with HTML, CSS, and Javascript.</p>
+<p>We use GitBash to pull (download) files from GitHub or to push (upload) files to GitHub. GitBash and how to use it are discussed [here]({{&lt; ref “/docs/using_the_command_console.MD” &gt;}}) .</p>
+<p>Once the files are pushed to GitHub then Netlify will try to deploy the new build.</p>
+</div>
+<div id="netlify" class="section level2">
+<h2>Netlify</h2>
+<p>If you login to Netlify with the Methods101 account you will see a list of websites associated with it. Select the website you are interested in.</p>
+<p>Now if you scroll down you can see the status of the website:</p>
+<p><img width='500' src='/img/the_setup_01.png'/></p>
+<p>It will either say “published”, “building”, or “failed”.</p>
+<p>Each is self explanatory. If it failed to deploy then you can select that log and review the reason why it failed.</p>
+<div id="netlify.toml" class="section level3">
+<h3>netlify.toml</h3>
+<p>There is a file located in the root directory called netlify.toml. It handles [redirects]({{<ref "/docs/redirects.MD" >}}) (where one address is redirected to another) and Hugo version. Hugo version currently in use by the site is 0.53 while the most recent version is 0.55.</p>
+</div>
+</div>
+<div id="github" class="section level2">
+<h2>GitHub</h2>
+<p>The Methods101 account for GitHub has repositories for various websites associated with it. You can have administrator access to these repositories with a personal account if you are given permission by the main account.</p>
+<p>If you open a repository you can see the files associated with the given website. The main way you will interact with GitHub is through GitBash.</p>
+</div>
+<div id="hugo" class="section level2">
+<h2>Hugo</h2>
+<p>Hugo provides the framework within which the website works. The best example of this is showing a bit of the HTML code for the sidemenu.</p>
+<p><img width='800' src='/img/the_setup_02.png'/></p>
+<p>Much of what is shown here is HTML. However the bits of code in {{ }} are calling on the Hugo framework to do work. Hugo connects the site together. A front matter menu entry is called on here in code chunks like:</p>
+<pre><code>  {{ with (index .Site.Menus $menu_name) }}
+  {{ range (index $.Site.Menus $menu_name).ByWeight }} </code></pre>
+<p>This code creates a list of menu entries by weight (another front matter variable).</p>
+<div id="academic-theme" class="section level3">
+<h3>Academic Theme</h3>
+<p>The Hugo theme we use is called <a href="https://sourcethemes.com/academic/docs/">Academic.</a> The theme has been modified (mostly the sidemenu) and only a part of its functionality has been used. We also use our own custom colour scheme (which is largely deployed by the Academic theme).</p>
+<p>The default Academic theme files can be found here:</p>
+<p><img width='500' src='/img/the_setup_03.jpg'/></p>
+<p>These files should not be changed.</p>
+<p>Instead, if you wish to make a change to a function or style of the Academic theme then you should either create or modify one of the files in the root directory of the site. The files outside of the theme folder will take precedence when the site is deploying. For example, our custom sidemenu is located at _sidebar.HTML and overrides the default sidemenu located at -academic_sidebar.HTML.</p>
+<p>The default css file is located at -academic.css while our custom css file is located at _css.css.</p>
+<p>Finally, the files in  are taken from the rest of the repository. They are the files that will be deployed and will changed automatically based on changes made elsewhere to the repository. There is no point in changing these files and they should be left alone.</p>
+</div>
+</div>

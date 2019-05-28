@@ -1,0 +1,55 @@
+---
+title: "Images and Videos"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Images and Videos"
+menu:
+  docs:
+    parent: Content Management
+    weight: 50
+
+---
+
+
+
+<div id="images" class="section level2">
+<h2>Images</h2>
+<div id="where-do-they-go" class="section level3">
+<h3>Where do they go?</h3>
+<p>Images that you want displayed on a page must be put in the static/img folder.</p>
+<p>The naming convention for the images is the file name of the Markdown page they are appearing in with an _ and then image number.</p>
+<p>For example, the Markdown file for this page is called images_and_videos. So an image for this page would be called images_and_videos_01.png (file extension may be different depending on image type).</p>
+</div>
+<div id="how-to-include-with-html" class="section level3">
+<h3>How to include with HTML:</h3>
+<p>Images can be included in a Markdown file in two ways.</p>
+<p>The first is by using HTML in the Markdown document like so:</p>
+<p><code>&lt;img alt = 'my new screenshot' width='300' src='/img/filename.png'/&gt;</code></p>
+<p>The “alt = ‘my new screenshot’” provides alternative text for people who use screen readers. In this case a person with a screenreader will hear “my new screenshot.”</p>
+<p>Width determines the size of the image (it keeps the same aspect ratio so changing the width changes the height proportionally).</p>
+<p>Note that the file path for the image includes the img folder and has a ’ at the beginning and end.</p>
+</div>
+<div id="how-to-include-with-r-code" class="section level3">
+<h3>How to include with R code:</h3>
+<p>To include with R code simply use the following:</p>
+<p><code>` ```` ` ```` `</code>{r, echo=FALSE, fig.cap=“whatever you want”, fig.width = 7, fig.height = 5, fig.align=“center”}</p>
+<p>knitr::include_graphics(“/img/filename.png”)<code>` ```` ` ```` `</code></p>
+<p>Where fig.cap gives both the alternative text for screenreaders and a text caption for the image.</p>
+<p>For more info on this function go <a href="https://www.zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#use-fig.width-and-fig.height-for-r-generated-figures-only">here</a>.</p>
+</div>
+</div>
+<div id="videos" class="section level2">
+<h2>Videos</h2>
+<p>To embed a YouTube video in RMarkdown use the following code:</p>
+<p><code>` ```` ` ```` `</code>{r, eval=TRUE, echo=FALSE}</p>
+<p>blogdown::shortcode(“youtube”, “zPrI8db74kA”)<code>` ```` ` ```` `</code></p>
+<p>Where:</p>
+<p>zPrI8db74kA</p>
+<p>is taken from the url of the video:</p>
+<p><a href="https://www.youtube.com/watch?v=zPrI8db74kA" class="uri">https://www.youtube.com/watch?v=zPrI8db74kA</a></p>
+</div>
