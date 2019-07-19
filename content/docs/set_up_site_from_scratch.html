@@ -1,0 +1,79 @@
+---
+title: "Setting Up A Site From Scatch"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Setup From Scratch"
+menu:
+  docs:
+    parent: Website Management
+    weight: 40
+
+---
+
+
+
+<div id="summary" class="section level1">
+<h1>Summary</h1>
+</div>
+<div id="step-1-create-a-gmail" class="section level1">
+<h1>Step 1: Create a Gmail</h1>
+<p>You want to sent up a brand new gmail account for two reasons:</p>
+<ol style="list-style-type: decimal">
+<li>It will mean you will have a Gmail, Github, and Netlify accounts for your organisation and the website which you can share and transfer with other members of the organisation (or collaborators) without compromising your own personal gmail/github/netlify account.</li>
+<li>Netlify has a limit of one free netlify hosting per Github account.</li>
+</ol>
+<p>Go to www.gmail.com and create a new email address.</p>
+<p>You will need a mobile phone number to send an SMS to for verification of your identity.</p>
+<p>If you are looking for ideas for passwords, check out this XKCD comic.</p>
+<p><a href="https://xkcd.com/936/" class="uri">https://xkcd.com/936/</a></p>
+<p>And this automatic password generator</p>
+<p><a href="https://preshing.com/20110811/xkcd-password-generator/" class="uri">https://preshing.com/20110811/xkcd-password-generator/</a></p>
+</div>
+<div id="create-a-github-account" class="section level1">
+<h1>Create a Github account</h1>
+<p>Now go to www.github.com and set up a normal free Github account.</p>
+</div>
+<div id="clone-the-methods101-template-or-whatever" class="section level1">
+<h1>Clone the methods101 template (or whatever)</h1>
+<p>BEFORE creating a new repository, follow these steps</p>
+<p>When logged into your Github account:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the plus sign (+) in the top right hand corner of the github screen</li>
+<li>Select “Import repository”</li>
+<li>On the next page there are two boxes you need to fill out.
+<ul>
+<li>Under the 2nd set of boxes “Your new repository details”, insert the name of your repository in the box below “Name”</li>
+<li>In the 1st box “Your old repository’s clone URL”, you will need to get the clone URL from your old repository (e.g. methods101.com) by following the steps in these instructions: <a href="https://help.github.com/en/articles/cloning-a-repository" class="uri">https://help.github.com/en/articles/cloning-a-repository</a></li>
+</ul></li>
+</ol>
+</div>
+<div id="create-netlify-account" class="section level1">
+<h1>Create Netlify account</h1>
+<p>Go to Netlify and log in with your Github account.</p>
+<ol style="list-style-type: decimal">
+<li>On the main page of your account, in the “Sites” tab, click “New site from Git” button in the top right corner.</li>
+<li>On the next page called “Create a new site”, under “Continuous Deployment”, click “Github”</li>
+<li>You will be asked to authorise Netlify to access your account, so click the green button “Authorise Netlify by Netlify”</li>
+<li>Change the next page first button selection to “Only select repositories”, and then in the pull down menu select the repository you want to launch/host. And then click “Install”.</li>
+<li><p>It should then go to the the third stage of setting up called “2. Build options and deploy!” [NOTE: We had trouble here, but just reloaded the pages, and then clicked on “New site from Git” and then went straight to “3. Build options, and deploy”] Default settings here should be fine:</p>
+<ul>
+<li>you are the owner,</li>
+<li>branch is master,</li>
+<li>build command is hugo,</li>
+<li>public director is public.</li>
+</ul></li>
+</ol>
+<p>Click “Deploy site.”
+6. It will now show “Site deploy in progress”. Click on “General”, and under “Site details” and “Site information”, click the button “Change site name” =, and change the name to some name you want (e.g. sydnet, so now the basic domain name deployed by netlify is hosted at: sydnet.netlify.com )</p>
+</div>
+<div id="change-the-default-page-to-doc" class="section level1">
+<h1>Change the default page to /doc/</h1>
+</div>
+<div id="buy-a-website-and-link-to-netlify" class="section level1">
+<h1>buy a website and link to netlify</h1>
+</div>
