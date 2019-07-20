@@ -1,5 +1,5 @@
 ---
-title: "Setting Up A Site From Scatch"
+title: "Setting Up A Site From Scratch"
 
 lastmod: 2019-03-06T00:00:00.000Z
 
@@ -38,11 +38,11 @@ And this automatic password generator
 
 https://preshing.com/20110811/xkcd-password-generator/
 
-# Create a Github account
+# Step 2: Create a Github account
 
 Now go to www.github.com and set up a normal free Github account.
 
-# Clone the methods101 template (or whatever)
+# Step 3: Clone the methods101 template (or whatever)
 
 BEFORE creating a new repository, follow these steps
 
@@ -54,8 +54,7 @@ When logged into your Github account:
 	* Under the 2nd set of boxes "Your new repository details", insert the name of your repository in the box below "Name"
 	* In the 1st box "Your old repository's clone URL", you will need to get the clone URL from your old repository (e.g. methods101.com) by following the steps in these instructions: https://help.github.com/en/articles/cloning-a-repository
 
-
-# Create Netlify account
+# Step 4: Create Netlify account
 
 Go to Netlify and log in with your Github account.
 
@@ -74,9 +73,13 @@ Click "Deploy site."
 6. It will now show "Site deploy in progress". Click on "General", and under "Site details" and "Site information", click the button "Change site name" =, and change the name to some name you want (e.g. sydnet, so now the basic domain name deployed by netlify is hosted at: sydnet.netlify.com )
 
 
-# Change the default page to /doc/
+# Step 5: Change the default page to /doc/
 
-# buy a website and link to netlify
+# Step 6: Buy a website and link to netlify
 
+# Step 7: Invite collaborators
 
+# Step 8: Download to your computer to work on it (install Gitbash, Sublime Text, etc.)
+
+# Step 9: Start customising the website.
 
