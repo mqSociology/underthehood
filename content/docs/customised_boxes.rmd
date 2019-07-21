@@ -155,8 +155,9 @@ The main problems I had to solve were:
 # Solutions
 
 Remember:
+
 1. spell alert correctly (it is not alter)
-2. don't start a table again half way through making the table by including <table> or <tbody> tags.
-3. Include a <br> between consecutive boxes.
+2. don't start a table again half way through making the table by including `<table>` or `<tbody>` tags.
+3. Include a `<br>` between consecutive boxes.
 4. 
 
