@@ -4,6 +4,352 @@
  *  https://github.com/gcushen/hugo-academic
  **************************************************/
 
+
+/****************************************
+* Young changes 28/5/2019
+*****************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+/****************************************
+* Nick changes 26/5/2019
+*****************************************/
+
+.caption {
+  display: block;
+/*  margin-top: 0.75em;
+  line-height: 1.25; */
+  font-size: 0.7rem;
+  margin-bottom: 1.65rem;
+  font-family: '{{ .Get "heading_font" }}', 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.img {
+  padding:1px;
+  border:1px
+  solid #021a40;
+}
+
+
+/****************************************
+* Nick changes 16/7/2019
+* ALERTS
+*****************************************/
+
+div.alert-pen p:first-child::before {
+content: '' !important;
+}
+
+div.alert-readings p:first-child::before {
+content: '' !important;
+}
+
+div.alert-concepts p:first-child::before {
+content: '' !important;
+}
+
+div.alert-summary p:first-child::before {
+content: '' !important;
+}
+
+div.alert-box p:first-child::before {
+content: '' !important;
+}
+
+div.alert-review p:first-child::before {
+content: '' !important;
+}
+
+div.alert-exercise p:first-child::before {
+content: '' !important;
+}
+
+div.alert-solution p:first-child::before {
+content: '' !important;
+}
+
+div.alert-exam p:first-child::before {
+content: '' !important;
+}
+
+
+div.alert-pen h2:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f304';
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.alert-pen {
+    padding: 0 0 5px 5px;
+    border: 1px solid;
+    border-color: #f4fd9c;
+    border-radius: 4px;
+    margin: 15px 5px 10px 0;
+    background-color: #f4fd9c40
+}
+
+.alert-pen h2 {
+  padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background: #f4fd9c;
+    border-color: #f4fd9c;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+
+.alert p:first-child, .alert ul:first-child, .alert ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert p:last-child, .alert ul:last-child, .alert ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-readings p:first-child, .alert-readings ul:first-child, .alert-readings ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-readings p:last-child, .alert-readings ul:last-child, .alert-readings ol:last-child {
+    margin-bottom: 0;
+}
+
+
+.alert-summary p:first-child, .alert-summary ul:first-child, .alert-summary ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-summary p:last-child, .alert-summary ul:last-child, .alert-summary ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-box p:first-child, .alert-box ul:first-child, .alert-box ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-box p:last-child, .alert-box ul:last-child, .alert-box ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-review p:first-child, .alert-review ul:first-child, .alert-review ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-review p:last-child, .alert-review ul:last-child, .alert-review ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-exercise p:first-child, .alert-exercise ul:first-child, .alert-exercise ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-exercise p:last-child, .alert-exercise ul:last-child, .alert-exercise ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-solution p:first-child, .alert-solution ul:first-child, .alert-solution ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-solution p:last-child, .alert-solution ul:last-child, .alert-solution ol:last-child {
+    margin-bottom: 0;
+}
+
+.alert-exam p:first-child, .alert-exam ul:first-child, .alert-exam ol:first-child {
+    margin-bottom: 0;
+}
+
+.alert-exam p:last-child, .alert-exam ul:last-child, .alert-exam ol:last-child {
+    margin-bottom: 0;
+}
+
+/*.alert h2:first-of-type ,.alert-readings h2:first-of-type, .alert-concepts h2:first-of-type,
+.alert-summary h2:first-of-type, .alert-box h2:first-of-type, .alert-review h2:first-of-type,
+.alert-exercise h2:first-of-type, .alert-solution h2:first-of-type, .alert-exam h2:first-of-type {
+  margin-top: 0;
+}
+*/
+
+
+/****************************************
+* Nick changes 20/7/2019
+* new alerts
+*****************************************/
+
+.alert-readings, .alert-concepts, .alert-summary, .alert-box, 
+.alert-review, .alert-exercise, .alert-solution, .alert-exam {
+    font-size:0.7rem;
+    padding: 0 0 5px 5px;
+    border: 1px solid;
+    border-color: #D6D2C4;
+    border-radius: 4px;
+    margin: 0px 5px 0px 0;
+    background-color: #D6D2C420;
+}
+
+.alert-readings h1, .alert-concepts h1, .alert-summary h1, 
+.alert-review h1, .alert-exercise h1, .alert-solution h1, .alert-exam h1  {
+    font-size: 20px;
+    background: #D6D2C4;
+    border-color: #D6D2C4;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
+}
+
+.alert-box h1 {
+    font-size: 14px;
+    background: #D6D2C4;
+    border-color: #D6D2C4;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
+}
+
+
+table.alert-readings h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f530';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+table.alert-concepts h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f0c2';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+table.alert-summary h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f46d';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+table.alert-box h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f552';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+table.alert-review h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f14a';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+table.alert-exercise h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f44b';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+table.alert-solution h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f0eb';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+table.alert-exam h1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f492';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/****************************************
+* Nick changes 16/7/2019
+* <kbd> and <code>
+*****************************************/
+
+kbd {
+   display: inline-block;
+   margin: 0 .1em;
+   padding: .1em .6em;
+   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+   font-size: 11px;
+   line-height: 1.4;
+   color: #242729;
+   text-shadow: 0 1px 0 #FFF;
+   background-color: #e1e3e5;
+   border: 1px solid #adb3b9;
+   border-radius: 3px;
+   box-shadow: 0 1px 0 rgba(12,13,14,0.2), 0 0 0 2px #FFF inset;
+   white-space: nowrap;
+   font-style: normal;
+}
+
+
+code {
+   white-space: nowrap;
+   padding: 2px 5px;
+   color: #006cad;
+   background-color: #e7e7e7;
+   font-size: 90%;
+   border-radius: 4px;
+}
+
+
 /*************************************************
  *  Core
  **************************************************/
@@ -1763,6 +2109,7 @@ nav#navbar-main li.nav-item {
   }
 }
 
+
 /*************************************************
  *  Tables
  **************************************************/
@@ -1804,21 +2151,51 @@ table > tbody + tbody {
   border-top: 2px solid #ddd;
 }
 
+/*************************************************/
+/* #### HOVER OR NOT TABLES #### */
+/*************************************************/
+
+/* OPTION 1: WITHOUT TABLE HOVER EFFECT */
 table table {
-  background-color: #fff;
+background-color: #D6D2C420;
 }
 
 /* Table Striped */
 table > tbody > tr:nth-child(odd) > td,
 table > tbody > tr:nth-child(odd) > th {
-  background-color: #f9f9f9;
+background-color: #D6D2C4;
+}
 }
 
-/* Table Hover */
-table > tbody > tr:hover > td,
-table > tbody > tr:hover > th {
-  background-color: #e5e5e5;
+/* END OPTION 1 */
+
+/*************************************************/
+
+/* OPTION 2: WITH TABLE HOVER EFFECT */
+
+/*table table {
+background-color: #fff; 20190705 - make no hover effect
 }
+*/
+/* Table Striped */
+/*table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+background-color: #f9f9f9;
+}
+}
+*/
+/* Table Hover */
+
+tr:hover {
+  background-color: #D6D2C420;
+}
+
+/* END OPTION 2 */
+
+/*************************************************/
+/* #### END HOVER OR NOT TABLES #### */
+/*************************************************/
+
 
 /*************************************************
  *  Alerts

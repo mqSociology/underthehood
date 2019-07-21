@@ -75,12 +75,49 @@ You choose the icon for your box by indicating the name of the class in the firs
 
 There are eight icons to choose from:
 
-|----|-----|
-|icon|class name|
-|glasses|alert-readings|
-|clound|alert-concepts|
-|clipboard|alert-summary|
-etc.
+|icon|class name|example|
+| ---- | ----- | ---- |
+|eye-glasses|alert-readings|
+|clound|alert-concepts| 
+|clipboard|alert-summary|  
+|toolbox|alert-box|  
+| ... |alert-review|  
+| ... |alert-exercises|  
+| ... |alert-solutions|  
+|testtube|alert-exam|   
+
+<table class="alert-readings"> <tbody> <tr>  <td>
+# Example 'alert-readings' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-concepts"> <tbody> <tr>  <td>
+# Example 'alert-concepts' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-summary"> <tbody> <tr>  <td>
+# Example 'alert-summary' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-box"> <tbody> <tr>  <td>
+# Example 'alert-box' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-review"> <tbody> <tr>  <td>
+# Example 'alert-review' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-exercise"> <tbody> <tr>  <td>
+# Example 'alert-exercise' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-solution"> <tbody> <tr>  <td>
+# Example 'alert-solution' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+<br>
+<table class="alert-exam"> <tbody> <tr>  <td>
+# Example 'alert-exam' Box - Heading and Icon
+</td>  </tr> </tbody> </table>
+
 
 # Complications
 

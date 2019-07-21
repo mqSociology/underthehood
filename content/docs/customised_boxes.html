@@ -1,0 +1,286 @@
+---
+title: "Customised Boxes (Alerts)"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+linktitle: "Customised Boxes (Alerts)"
+menu:
+  docs:
+    parent: Website Management
+    weight: 60
+
+---
+
+
+
+<p><strong>Sun 21 July 2019 - Nick</strong></p>
+<p>I’ve made a major change to the website so as to make it a little bit more attractive.</p>
+<p>The change involves allowing us to now put a customised box around various sections, such as the required readings, the summary at the beginning of a lesson, the list of concepts, an exercise, or a set of practice exercises or exam questions.</p>
+<p>There are eight different types I’ve created, and the main distinction between them (except ‘box’ which also has a smaller h1 font) is that they have different icons in the top lefft corner of the box.</p>
+<div id="how-to-use." class="section level1">
+<h1>How to use.</h1>
+<p>These boxes are tables, which use css styles to format the cells of the table.</p>
+<p>This is an example of the code to create two sequential boxes</p>
+<pre><code>&lt;table class=&quot;alert-readings&quot;&gt; &lt;tbody&gt; &lt;tr&gt;  &lt;td&gt;
+# Readings
+&lt;/td&gt;  &lt;/tr&gt;  &lt;tr&gt;  &lt;td&gt;
+[insert readings here]
+&lt;/td&gt;  &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&quot;alert-summary&quot;&gt; &lt;tbody&gt; &lt;tr&gt;  &lt;td&gt;
+# Summary
+&lt;/td&gt;  &lt;/tr&gt;  &lt;tr&gt;  &lt;td&gt;
+[insert summary here]
+&lt;/td&gt;  &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</code></pre>
+<p>And this is the box as it renders in Rmarkdown/hugo/html:</p>
+<table class="alert-readings">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="readings" class="section level1">
+<h1>Readings</h1>
+</td>
+</tr>
+<tr>
+<td>
+[insert readings here]
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-summary">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="summary" class="section level1">
+<h1>Summary</h1>
+</td>
+</tr>
+<tr>
+<td>
+[insert summary here]
+</td>
+</tr>
+</tbody>
+</table>
+<div id="parts-of-a-box" class="section level2">
+<h2>Parts of a box</h2>
+<p>All boxes have only two rows.</p>
+<p>The first row is dark and is currently the sand colour from Macquarie University.</p>
+<p>The second row is 80% transparent (by putting 20 at the end of the hexidecimal color number - for 20%).</p>
+<p>The first row should contain one h1 heading (indicated by starting the line with a hash #).</p>
+<p>The second row can contain h2, h3, normal text, latex/mathjax, and pretty much any other text.</p>
+</div>
+<div id="choosing-the-icon" class="section level2">
+<h2>Choosing the icon</h2>
+You choose the icon for your box by indicating the name of the class in the first table tag (
+<table class= "....">
+<p>).</p>
+<p>There are eight icons to choose from:</p>
+<table>
+<thead>
+<tr class="header">
+<th>icon</th>
+<th>class name</th>
+<th>example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>eye-glasses</td>
+<td>alert-readings</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>clound</td>
+<td>alert-concepts</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>clipboard</td>
+<td>alert-summary</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>toolbox</td>
+<td>alert-box</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>alert-review</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>…</td>
+<td>alert-exercises</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>alert-solutions</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>testtube</td>
+<td>alert-exam</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="alert-readings">
+<tbody>
+<tr>
+<td>
+</div>
+</div>
+<div id="example-alert-readings-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-readings’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-concepts">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-concepts-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-concepts’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-summary">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-summary-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-summary’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-box">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-box-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-box’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-review">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-review-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-review’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-exercise">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-exercise-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-exercise’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-solution">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-solution-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-solution’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-exam">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-exam-box---heading-and-icon" class="section level1">
+<h1>Example ‘alert-exam’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="complications" class="section level1">
+<h1>Complications</h1>
+<ul>
+<li>You need a line break character between conceptive boxes</li>
+<li>the ‘alert-box’ box is the same as the others, except that the heading is in 14 font. This is so it can fit longer headings, such as those you might find on a table or figure or box in a academic paper.</li>
+<li>There is a lot more</li>
+</ul>
+</div>
+<div id="rationale-behind-them-and-problems-i-faced-while-constructing-them" class="section level1">
+<h1>Rationale behind them and problems I faced while constructing them</h1>
+<p>The main problems I had to solve were:</p>
+<ol style="list-style-type: decimal">
+<li>How to make ‘alert’ shortcodes work in Hugo/academic theme</li>
+<li>How to make Latex/Mathjax work inside a ‘shortcode’ (you can’t).</li>
+<li>How to make a heading from inside a ‘shortcode’ display in the Hugo Table of Contents (you can’t).</li>
+<li>How to use
+<div>
+tags to give a similar effect as ‘shortcode’ - You can do this, but the problem is that it doesn’t show up in the Hugo Table of Contents for the page.</li>
+<li>How to make the same materials with HTML tables.</li>
+<li>How to turn off change colour on hover for HTML tables.</li>
+<li>And also just a range of generic skills such as:
+<ul>
+<li>How to use CSS</li>
+<li>How does Mathjax work</li>
+<li>How do classes work in CSS</li>
+<li>How to call multiple classes on the one set of text (it is possible, you just put the classes as separate words inside the same set of double inverted commas in CSS).</li>
+<li>What the boxes look like when I make eight different colours based on the eight colours of MQ logos (it doesn’t work - just one looks better).</li>
+<li>How to make a color transparent, such as #a34b2b20.</li>
+<li>How to find and load logos into a webpage through CSS</li>
+</ul></li>
+<li>How to change the distance between headings and the top and bottom of boxes, and also how to lift boxes closer to text when you end with a list, or start with a heading.</li>
+<li>How to keep all of this as close as possible to the intentions of Markdown - which are supposed to be clean, simply layed out documents - not full of HTML and other code.</li>
+<li>The distinction between the three verisons of the files on my computer:
+<ul>
+<li>the Rmd</li>
+<li>the first round of HTML generated by rmarkdown and stored with the Rmd file.</li>
+<li>the second round of HTML files, which are all called index.html, and which have been processed by Hugo.</li>
+</ul></li>
+</ol>
+</div>
+<div id="solutions" class="section level1">
+<h1>Solutions</h1>
+Remember:
+1. spell alert correctly (it is not alter)
+2. don’t start a table again half way through making the table by including
+<table>
+or
+<tbody>
+<p>tags.
+3. Include a <br> between consecutive boxes.
+4.</p>
+</div>
