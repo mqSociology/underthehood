@@ -7,6 +7,10 @@ draft: false
 type: docs
 maths: true	
 
+output:
+  blogdown::html_page:
+    toc: true
+
 linktitle: "Customised Boxes (Alerts)"
 menu:
   docs:
@@ -16,6 +20,31 @@ menu:
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#how-to-use.">How to use.</a></li>
+<li><a href="#readings">Readings</a></li>
+<li><a href="#summary">Summary</a><ul>
+<li><a href="#parts-of-a-box">Parts of a box</a></li>
+<li><a href="#choosing-the-icon">Choosing the icon</a></li>
+<li><a href="#examples-of-headings-and-icons">Examples of Headings and Icons</a></li>
+</ul></li>
+<li><a href="#example-alert-readings-box---heading-and-icon">Example ‘alert-readings’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-concepts-box---heading-and-icon">Example ‘alert-concepts’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-summary-box---heading-and-icon">Example ‘alert-summary’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-box-box---heading-and-icon">Example ‘alert-box’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-review-box---heading-and-icon">Example ‘alert-review’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-exercise-box---heading-and-icon">Example ‘alert-exercise’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-solution-box---heading-and-icon">Example ‘alert-solution’ Box - Heading and Icon</a></li>
+<li><a href="#example-alert-exam-box---heading-and-icon">Example ‘alert-exam’ Box - Heading and Icon</a></li>
+<li><a href="#complications">Complications</a></li>
+<li><a href="#rationale-behind-the-choice-of-this-solution-to-the-box-problem-including-a-summary-of-tghe-problems-i-faced-while-constructing-the-code-for-these-boxes">Rationale behind the choice of this solution to the ‘box problem’, including a summary of tghe problems I faced while constructing the code for these boxes</a></li>
+<li><a href="#solutions">Solutions</a></li>
+<li><a href="#future-developments">Future developments</a></li>
+<li><a href="#example-alert-exam-box---heading-and-icon-1">Example ‘alert-exam’ Box - Heading and Icon</a></li>
+<li><a href="#solution-with-grid_tables">Solution with grid_tables?</a></li>
+</ul>
+</div>
 
 <p><strong>Sun 21 July 2019 - Nick</strong></p>
 <p>I’ve made a major change to the website so as to make it a little bit more attractive.</p>
@@ -80,9 +109,7 @@ menu:
 </div>
 <div id="choosing-the-icon" class="section level2">
 <h2>Choosing the icon</h2>
-You choose the icon for your box by indicating the name of the class in the first table tag (
-<table class= "....">
-<p>).</p>
+<p>You choose the icon for your box by indicating the name of the class in the first table tag: <code>&lt;table class= "...."&gt;</code>.</p>
 <p>There are eight icons to choose from:</p>
 <table>
 <thead>
@@ -109,30 +136,30 @@ You choose the icon for your box by indicating the name of the class in the firs
 <td>alert-box</td>
 </tr>
 <tr class="odd">
-<td>…</td>
+<td>tick-box</td>
 <td>alert-review</td>
 </tr>
 <tr class="even">
-<td>…</td>
+<td>bar-bell/weights</td>
 <td>alert-exercises</td>
 </tr>
 <tr class="odd">
-<td>…</td>
+<td>light-globe</td>
 <td>alert-solutions</td>
 </tr>
 <tr class="even">
-<td>testtube</td>
+<td>test-tube</td>
 <td>alert-exam</td>
 </tr>
 </tbody>
 </table>
-<div id="examples-of-headings-and-icons" class="section level3">
-<h3>Examples of Headings and Icons</h3>
+</div>
+<div id="examples-of-headings-and-icons" class="section level2">
+<h2>Examples of Headings and Icons</h2>
 <table class="alert-readings">
 <tbody>
 <tr>
 <td>
-</div>
 </div>
 </div>
 <div id="example-alert-readings-box---heading-and-icon" class="section level1">
@@ -229,21 +256,20 @@ You choose the icon for your box by indicating the name of the class in the firs
 <div id="complications" class="section level1">
 <h1>Complications</h1>
 <ul>
-<li>You need a line break character between conceptive boxes</li>
+<li>You need a line break character between consecutive boxes</li>
 <li>the ‘alert-box’ box is the same as the others, except that the heading is in 14 font. This is so it can fit longer headings, such as those you might find on a table or figure or box in a academic paper.</li>
-<li>There is a lot more</li>
 </ul>
 </div>
-<div id="rationale-behind-them-and-problems-i-faced-while-constructing-them" class="section level1">
-<h1>Rationale behind them and problems I faced while constructing them</h1>
+<div id="rationale-behind-the-choice-of-this-solution-to-the-box-problem-including-a-summary-of-tghe-problems-i-faced-while-constructing-the-code-for-these-boxes" class="section level1">
+<h1>Rationale behind the choice of this solution to the ‘box problem’, including a summary of tghe problems I faced while constructing the code for these boxes</h1>
 <p>The main problems I had to solve were:</p>
 <ol style="list-style-type: decimal">
-<li>How to make ‘alert’ shortcodes work in Hugo/academic theme</li>
+<li>How to make ‘alert’ shortcodes work in Hugo/academic theme (you can, but see point 2)</li>
 <li>How to make Latex/Mathjax work inside a ‘shortcode’ (you can’t).</li>
 <li>How to make a heading from inside a ‘shortcode’ display in the Hugo Table of Contents (you can’t).</li>
 <li>How to use
 <div>
-tags to give a similar effect as ‘shortcode’ - You can do this, but the problem is that it doesn’t show up in the Hugo Table of Contents for the page.</li>
+tags to give a similar effect as ‘shortcode’ - You can do this, but the problem is that it doesn’t show up in the Hugo Table of Contents for the page (so, basically you can’t use it if you want TOC).</li>
 <li>How to make the same materials with HTML tables.</li>
 <li>How to turn off change colour on hover for HTML tables.</li>
 <li>And also just a range of generic skills such as:
@@ -273,6 +299,76 @@ tags to give a similar effect as ‘shortcode’ - You can do this, but the prob
 <li>spell alert correctly (it is not alter)</li>
 <li>don’t start a table again half way through making the table by including <code>&lt;table&gt;</code> or <code>&lt;tbody&gt;</code> tags.</li>
 <li>Include a <code>&lt;br&gt;</code> between consecutive boxes.</li>
-<li></li>
 </ol>
+</div>
+<div id="future-developments" class="section level1">
+<h1>Future developments</h1>
+<p>It might be possible to build this within a markdown table, and preserve more markdown, and use less HTML tags.</p>
+<p>For example, the following code</p>
+<pre><code>| &lt;i class=&quot;fas fa-cloud&quot;&gt;&lt;/i&gt; Summary |
+| ------ |
+| [insert text here] |
+</code></pre>
+<p>produces this table:</p>
+<table>
+<thead>
+<tr class="header">
+<th><i class="fas fa-cloud"></i> Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[insert text here]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>However</strong>, there are multiple problems:</p>
+<ol style="list-style-type: decimal">
+<li>I can’t get markdown headings (e.g. # for h1) to work wihthin a markdown table</li>
+<li>Without headings it won’t index</li>
+<li>I don’t think the second row of the markdown table would handle a large amount of text, including latex, if we wanted to do a inset box with latex equations in it.</li>
+</ol>
+<p>An alternative might be to just create a generic ‘box’ HTML table, and then put whatever icon I want within that. <strong>However,</strong> this would also have problems, such as:</p>
+<ol style="list-style-type: decimal">
+<li>It would still need the same code as for the current alert tables (i.e. the four tags to start it, and the class specification).</li>
+<li>It would require additional specification of the icon (e.g. a line like <code>&lt;i class="fas fa-cloud"&gt;&lt;/i&gt;</code>.</li>
+<li>I don’t think the <code>&lt;i&gt;</code> could be placed in the markdown and still get the effect we are looking for. This is because the h1 is specified with a #, which I think needs to be at the beginning of the line, and after an empty line. So we are then back to the css where we specify h1:before … for the icon.</li>
+<li>So it probably wouldn’t work, and we have the best we can do at the moment.</li>
+</ol>
+<p>For example, look how this renders.</p>
+<p>The first table is our current set up. The second table inserts an <i> icon before the h1 #, but it breaks the style sheet AND the markdown:</p>
+<pre><code>&lt;table class=&quot;alert-exam&quot;&gt; &lt;tbody&gt; &lt;tr&gt;  &lt;td&gt;
+# Example &#39;alert-exam&#39; Box - Heading and Icon
+&lt;/td&gt;  &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;
+&lt;br&gt;
+&lt;table class=&quot;alert-exam&quot;&gt; &lt;tbody&gt; &lt;tr&gt;  &lt;td&gt;
+    &lt;i class=&quot;fas fa-cloud&quot;&gt;&lt;/i&gt;
+# Example &#39;alert-exam&#39; Box - Heading and Icon
+&lt;/td&gt;  &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</code></pre>
+<table class="alert-exam">
+<tbody>
+<tr>
+<td>
+</div>
+<div id="example-alert-exam-box---heading-and-icon-1" class="section level1">
+<h1>Example ‘alert-exam’ Box - Heading and Icon</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table class="alert-exam">
+<tbody>
+<tr>
+<td>
+<i class="fas fa-cloud"></i>
+# Example ‘alert-exam’ Box - Heading and Icon
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="solution-with-grid_tables" class="section level1">
+<h1>Solution with grid_tables?</h1>
+<p>See section “Solution with grid_tables”</p>
 </div>

@@ -1,0 +1,152 @@
+---
+title: "Customised Boxes (Gridtables)"
+
+lastmod: 2019-03-06T00:00:00.000Z
+
+draft: false
+type: docs
+maths: true	
+
+output:
+  blogdown::html_page:
+    toc: true
+
+linktitle: "Customised Boxes (Gridtables)"
+menu:
+  docs:
+    parent: Website Management
+    weight: 65
+
+---
+
+**Mon 22 July 2019 - Nick**
+
+**NOTE: This solution doesn't work. Use the instructions in the section 'Website Management>Customised Boxes (Alerts)'**
+
+This uses a version of pandoc markdown tables called grid_tables:
+
+[grid_table documentation on pandoc website](https://pandoc.org/MANUAL.html#extension-grid_tables)
+
+Problems:
+
+* can't use markdown headings (i.e. #) inside grid_tables
+* Hugo doesn't load the `<h1>` heading into the Table of Contents of this page.
+* `<h1>` headings don't have all the lovely cleaning up that was needed to make the header row nice and narrow (notice how the header row includes lots of space before and after the heading)
+
+The option below acheives most of what is required (except TOC, and formating of `<h1>`, but it needs the style sheet settings I have put at the top of the example code, which I have not put in for this page because it will break the other stuff on this page. 
+
+```
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+```
+
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+
+
+```
+
+<style> 
+	/* OPTION 1: WITHOUT TABLE HOVER EFFECT */
+table table {
+background-color: #D6D2C4;
+}
+
+/* Table Striped */
+table > tbody > tr:nth-child(odd) > td{
+background-color: #D6D2C420;
+}
+
+
+table > tbody > tr:nth-child(odd) > th {
+background-color: #D6D2C4;
+}
+
+th {
+background-color: #D6D2C4;
+}
+
+</style>
+
++---------------+
+| 											   |
+|  <h1> <i class="fas fa-cloud"></i> Fruit </h1>        | 
+| 											   |
+| 											   |
++===============+
+|                               |
+| $\begin{aligned} |
+| \text{Standard Deviation of variable x} = &\sqrt{\frac{\sum_{i=1}^n (x_i - \bar x)^2}{N}}\\ |
+| \\ |
+| \text{Where:} \\ |
+| x_i = &\text{value of x for each individual i} \\ |
+| \bar x = &\text{ mean of x} \\ |
+| N,n = &\text{ number of observations} \\ |
+| \sum_{i=1}^n = &\text{sum for all observations from 1 to n} \\ |
+| \end{aligned}$ |
+|  |
+| While this equation looks scary to many people, I think the best way to break it down - conceptually, and by analogy, not strict mathematically - is to think about this as having just three main parts: |
+| |
+|* **Variation from mean**: First, it basically asks how much, each value of a variable (e.g. the age of each particular student in a class) varies from the mean for the whole set (e.g. the average age of the class). This is represented in the equation as: $$(x_i - \bar x)$$ |
+|* **Averaged over all individuals**: Second, it takes the average (mean) of this across all observations in the dataset (e.g. all students in the class). This is represented by the sum of (the funny E) divided by N: $$\frac{\sum_{i=1}^n \text{variation from mean} }{N}$$ |
+|* **Punishing (counting) big variations more than small ones**: Third, it actually squares the deviation from the mean - which has the effect of 'punishing' (i.e. inflating or more heavily weighting) larger deviations from the mean more. It then takes the square root of the whole thing, basically to counter act the effect of the squaring, and make it all measured in the same 'units' as  the mean. |
+|               |
++---------------+
+
+```
+
+
+<style> 
+	/* OPTION 1: WITHOUT TABLE HOVER EFFECT */
+table table {
+background-color: #D6D2C4;
+}
+
+/* Table Striped */
+table > tbody > tr:nth-child(odd) > td{
+background-color: #D6D2C420;
+}
+
+
+table > tbody > tr:nth-child(odd) > th {
+background-color: #D6D2C4;
+}
+
+th {
+background-color: #D6D2C4;
+}
+
+</style>
+
++---------------+
+| 											   |
+|  <h1> <i class="fas fa-cloud"></i> Fruit </h1>        | 
+| 											   |
+| 											   |
++===============+
+|                               |
+| $\begin{aligned} |
+| \text{Standard Deviation of variable x} = &\sqrt{\frac{\sum_{i=1}^n (x_i - \bar x)^2}{N}}\\ |
+| \\ |
+| \text{Where:} \\ |
+| x_i = &\text{value of x for each individual i} \\ |
+| \bar x = &\text{ mean of x} \\ |
+| N,n = &\text{ number of observations} \\ |
+| \sum_{i=1}^n = &\text{sum for all observations from 1 to n} \\ |
+| \end{aligned}$ |
+|  |
+| While this equation looks scary to many people, I think the best way to break it down - conceptually, and by analogy, not strict mathematically - is to think about this as having just three main parts: |
+| |
+|* **Variation from mean**: First, it basically asks how much, each value of a variable (e.g. the age of each particular student in a class) varies from the mean for the whole set (e.g. the average age of the class). This is represented in the equation as: $$(x_i - \bar x)$$ |
+|* **Averaged over all individuals**: Second, it takes the average (mean) of this across all observations in the dataset (e.g. all students in the class). This is represented by the sum of (the funny E) divided by N: $$\frac{\sum_{i=1}^n \text{variation from mean} }{N}$$ |
+|* **Punishing (counting) big variations more than small ones**: Third, it actually squares the deviation from the mean - which has the effect of 'punishing' (i.e. inflating or more heavily weighting) larger deviations from the mean more. It then takes the square root of the whole thing, basically to counter act the effect of the squaring, and make it all measured in the same 'units' as  the mean. |
+|               |
++---------------+

@@ -315,6 +315,102 @@ table.alert-exam h1:before {
   -webkit-font-smoothing: antialiased;
 }
 
+/*****************************
+* icons on their own
+****************************/
+
+
+i.alert-readings {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f530';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+i.alert-concepts {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f0c2';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+i.alert-summary {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f46d';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+i.alert-box {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f552';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+i.alert-review {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f14a';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+i.alert-exercise {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f44b';
+  padding-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+i.alert-solution {
+  font-family: 'Font Awesome 5 Free';
+  color: #595959;
+}
+
+
+span.alert-exam {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #595959;
+  content: '\f492';
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
 
 
 /****************************************
@@ -2166,6 +2262,8 @@ table > tbody > tr:nth-child(odd) > th {
 background-color: #D6D2C4;
 }
 }
+
+
 
 /* END OPTION 1 */
 
