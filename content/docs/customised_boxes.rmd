@@ -75,8 +75,8 @@ You choose the icon for your box by indicating the name of the class in the firs
 
 There are eight icons to choose from:
 
-|icon|class name|example|
-| ---- | ----- | ---- |
+|icon|class name|
+| ---- | ----- | 
 |eye-glasses|alert-readings|
 |clound|alert-concepts| 
 |clipboard|alert-summary|  
@@ -85,6 +85,8 @@ There are eight icons to choose from:
 | ... |alert-exercises|  
 | ... |alert-solutions|  
 |testtube|alert-exam|   
+
+### Examples of Headings and Icons
 
 <table class="alert-readings"> <tbody> <tr>  <td>
 # Example 'alert-readings' Box - Heading and Icon
