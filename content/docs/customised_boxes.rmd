@@ -137,7 +137,7 @@ The main problems I had to solve were:
 1. How to make 'alert' shortcodes work in Hugo/academic theme (you can, but see point 2)
 2. How to make Latex/Mathjax work inside a 'shortcode' (you can't).
 3. How to make a heading from inside a 'shortcode' display in the Hugo Table of Contents (you can't).
-4. How to use <div> tags to give a similar effect as 'shortcode' - You can do this, but the problem is that it doesn't show up in the Hugo Table of Contents for the page (so, basically you can't use it if you want TOC).
+4. How to use `<div>` tags to give a similar effect as 'shortcode' - You can do this, but the problem is that it doesn't show up in the Hugo Table of Contents for the page (so, basically you can't use it if you want TOC).
 5. How to make the same materials with HTML tables.
 6. How to turn off change colour on hover for HTML tables. 
 7. And also just a range of generic skills such as:
@@ -220,6 +220,6 @@ The first table is our current set up. The second table inserts an <i> icon  bef
 </td>  </tr> </tbody> </table>
 
 
-# Solution with grid_tables?
+# Solution with grid_tables (a type of pandoc markdown table?
 
-See section "Solution with grid_tables"
+See section "Customised Boxes (Gridtables)"

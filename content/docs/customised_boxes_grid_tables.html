@@ -20,6 +20,14 @@ menu:
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#h1-heading">H1 heading</a><ul>
+<li><a href="#h2-heading">H2 heading</a></li>
+<li><a href="#another-h2-heading">Another H2 heading</a></li>
+</ul></li>
+</ul>
+</div>
 
 <p><strong>Mon 22 July 2019 - Nick</strong></p>
 <p><strong>NOTE: This solution doesn’t work. Use the instructions in the section ‘Website Management&gt;Customised Boxes (Alerts)’</strong></p>
@@ -69,6 +77,19 @@ table table {
 background-color: #D6D2C4;
 }
 
+tr, th, thead, tbody, table {
+border: 1px solid;
+border-top-color: #D6D2C4 ;
+border-bottom-color:#D6D2C4 ;
+border-top: 1px solid;
+border-bottom: 1px solid;
+border-color: #D6D2C4;
+}
+
+table &gt; thead &gt; tr &gt; th {
+  border-bottom: 2px solid #D6D2C4;
+}
+
 /* Table Striped */
 table &gt; tbody &gt; tr:nth-child(odd) &gt; td{
 background-color: #D6D2C420;
@@ -81,6 +102,13 @@ background-color: #D6D2C4;
 
 th {
 background-color: #D6D2C4;
+}
+
+th h1 {     
+    font-size: 20px;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
 }
 
 &lt;/style&gt;
@@ -110,10 +138,30 @@ background-color: #D6D2C4;
 |               |
 +---------------+
 </code></pre>
+<div id="h1-heading" class="section level1">
+<h1>H1 heading</h1>
+<div id="h2-heading" class="section level2">
+<h2>H2 heading</h2>
+</div>
+<div id="another-h2-heading" class="section level2">
+<h2>Another H2 heading</h2>
 <style> 
     /* OPTION 1: WITHOUT TABLE HOVER EFFECT */
 table table {
 background-color: #D6D2C4;
+}
+
+tr, th, thead, tbody, table {
+border: 1px solid;
+border-top-color: #D6D2C4 ;
+border-bottom-color:#D6D2C4 ;
+border-top: 1px solid;
+border-bottom: 1px solid;
+border-color: #D6D2C4;
+}
+
+table > thead > tr > th {
+  border-bottom: 2px solid #D6D2C4;
 }
 
 /* Table Striped */
@@ -130,15 +178,22 @@ th {
 background-color: #D6D2C4;
 }
 
+th h1 {     
+    font-size: 20px;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
+}
+
 </style>
-<table style="width:22%;">
+<table style="width:97%;">
 <colgroup>
-<col width="22%" />
+<col width="97%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><h1>
-<i class="fas fa-cloud"></i> Fruit
+<i class="fas fa-cloud" style="margin-left: 5px"></i> Fruit
 </h1></th>
 </tr>
 </thead>
@@ -154,3 +209,5 @@ background-color: #D6D2C4;
 </tr>
 </tbody>
 </table>
+</div>
+</div>

@@ -31,9 +31,8 @@ Problems:
 
 * can't use markdown headings (i.e. #) inside grid_tables
 * Hugo doesn't load the `<h1>` heading into the Table of Contents of this page.
-* `<h1>` headings don't have all the lovely cleaning up that was needed to make the header row nice and narrow (notice how the header row includes lots of space before and after the heading)
 
-The option below acheives most of what is required (except TOC, and formating of `<h1>`, but it needs the style sheet settings I have put at the top of the example code, which I have not put in for this page because it will break the other stuff on this page. 
+The option below acheives most of what is required (except TOC). However, it needs the style sheet settings which will break other tables in our website if they were put on the same page. The conflicts between this style sheet and the style sheet for the larger webpage would need to be resolved. 
 
 ```
 +---------------+---------------+--------------------+
@@ -60,6 +59,19 @@ table table {
 background-color: #D6D2C4;
 }
 
+tr, th, thead, tbody, table {
+border: 1px solid;
+border-top-color: #D6D2C4 ;
+border-bottom-color:#D6D2C4 ;
+border-top: 1px solid;
+border-bottom: 1px solid;
+border-color: #D6D2C4;
+}
+
+table > thead > tr > th {
+  border-bottom: 2px solid #D6D2C4;
+}
+
 /* Table Striped */
 table > tbody > tr:nth-child(odd) > td{
 background-color: #D6D2C420;
@@ -72,6 +84,13 @@ background-color: #D6D2C4;
 
 th {
 background-color: #D6D2C4;
+}
+
+th h1 {	    
+	font-size: 20px;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
 }
 
 </style>
@@ -103,11 +122,29 @@ background-color: #D6D2C4;
 
 ```
 
+# H1 heading
+
+## H2 heading
+
+## Another H2 heading
 
 <style> 
 	/* OPTION 1: WITHOUT TABLE HOVER EFFECT */
 table table {
 background-color: #D6D2C4;
+}
+
+tr, th, thead, tbody, table {
+border: 1px solid;
+border-top-color: #D6D2C4 ;
+border-bottom-color:#D6D2C4 ;
+border-top: 1px solid;
+border-bottom: 1px solid;
+border-color: #D6D2C4;
+}
+
+table > thead > tr > th {
+  border-bottom: 2px solid #D6D2C4;
 }
 
 /* Table Striped */
@@ -124,14 +161,21 @@ th {
 background-color: #D6D2C4;
 }
 
+th h1 {	    
+	font-size: 20px;
+    margin-top: 0rem;
+    margin-left: -5px;
+    margin-bottom: 0rem;
+}
+
 </style>
 
-+---------------+
++--------------------------------------------------------------------+
 | 											   |
-|  <h1> <i class="fas fa-cloud"></i> Fruit </h1>        | 
+|  <h1> <i class="fas fa-cloud" style="margin-left: 5px"></i> Fruit </h1>        | 
 | 											   |
 | 											   |
-+===============+
++=====================================================================+
 |                               |
 | $\begin{aligned} |
 | \text{Standard Deviation of variable x} = &\sqrt{\frac{\sum_{i=1}^n (x_i - \bar x)^2}{N}}\\ |
