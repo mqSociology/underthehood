@@ -72,10 +72,15 @@ Go to Netlify and log in with your Github account.
 Click "Deploy site."
 6. It will now show "Site deploy in progress". Click on "General", and under "Site details" and "Site information", click the button "Change site name" =, and change the name to some name you want (e.g. sydnet, so now the basic domain name deployed by netlify is hosted at: sydnet.netlify.com )
 
+# Step 6: Buy a website 
 
-# Step 5: Change the default page to /doc/
+1. We used Godaddy.com
+2. We bought a .org or .com domain because .au domains can't be bought by private individuals. The alternative is to set up as a sole trader with the austrlaian government and then have an ABN.
 
-# Step 6: Buy a website and link to netlify
+# Step 5: Link Webiste to netlify
+
+1. Login to Netlify.com
+2. Follow the instructions in this video: [How to connect Netlify to Godaddy (Custom Domain)](https://www.youtube.com/watch?v=qbChXHDAK4s)
 
 # Step 7: Invite collaborators
 

@@ -94,34 +94,50 @@ There are eight icons to choose from:
 
 <table class="alert-readings"> <tbody> <tr>  <td>
 # Example 'alert-readings' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-concepts"> <tbody> <tr>  <td>
 # Example 'alert-concepts' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-summary"> <tbody> <tr>  <td>
 # Example 'alert-summary' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-box"> <tbody> <tr>  <td>
 # Example 'alert-box' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-review"> <tbody> <tr>  <td>
 # Example 'alert-review' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-exercise"> <tbody> <tr>  <td>
 # Example 'alert-exercise' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-solution"> <tbody> <tr>  <td>
 # Example 'alert-solution' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 <br>
 <table class="alert-exam"> <tbody> <tr>  <td>
 # Example 'alert-exam' Box - Heading and Icon
+</td>  </tr> <tr>  <td>
+[insert text here]
 </td>  </tr> </tbody> </table>
 
 
